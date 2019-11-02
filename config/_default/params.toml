@@ -83,7 +83,6 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", repo_branch 
 ## These details power the Contact widget (if enabled).
 ## Additionally, for organizations, these details may be used to enrich search engine results.
 ############################
-
 # Enter contact details (optional). To hide a field, clear it to "".
 email = ""
 
@@ -108,7 +107,7 @@ coordinates = {latitude = "-37.912519", longitude = "145.132637"}
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "envelope", icon_pack = "fas", name = "sevvandi.kandanaarachchi@monash.edu", link = "mailto:sevvandi.kandanaarachchi@monash.edu"},
+  {icon = "envelope", icon_pack = "fas", name = "sevvandi.kandanaarachchi@monash.edu", link = "mailto:sevvandi.kandanaarachchi@monash.ed"},
   {icon = "google-scholar", icon_pack = "ai", name = "Google Scholar", link = "https://scholar.google.com.au/citations?user=oA9YsjkAAAAJ&hl=en"},
   {icon = "github", icon_pack = "fab", name = "sevvandi on GitHub", link = "https://github.com/sevvandi"},
   {icon = "twitter", icon_pack = "fab", name = "@Sevvandik", link = "https://twitter.com/Sevvandik"},
