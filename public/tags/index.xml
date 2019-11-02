@@ -13,50 +13,10 @@
     </image>
     
     <item>
-      <title>data science</title>
-      <link>/tags/data-science/</link>
+      <title>Software</title>
+      <link>/tags/software/</link>
       <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/data-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dimension reduction</title>
-      <link>/tags/dimension-reduction/</link>
-      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/dimension-reduction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>outlier detection</title>
-      <link>/tags/outlier-detection/</link>
-      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/outlier-detection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/tags/r/</link>
-      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>research</title>
-      <link>/tags/research/</link>
-      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>statistical computing</title>
-      <link>/tags/statistical-computing/</link>
-      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/statistical-computing/</guid>
+      <guid>/tags/software/</guid>
       <description></description>
     </item>
     
