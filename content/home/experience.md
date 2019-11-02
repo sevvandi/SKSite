@@ -36,7 +36,7 @@ date_format = "Jan 2006"
   date_end = "2017-12-31"
 
 [[experience]]
-  title = "Assitant Professor, Mathematics"
+  title = "Assistant Professor, Mathematics"
   company = "DigiPen Institute of Technology, Singapore"
   company_url = ""
   location = "Singapore"
