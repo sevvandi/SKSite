@@ -106,14 +106,30 @@
     </item>
     
     <item>
-      <title>Software I&#39;ve written</title>
-      <link>/software/software-i-ve-written/</link>
+      <title>dobin</title>
+      <link>/software/dobin/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/software/dobin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eventstream</title>
+      <link>/software/eventstream/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/software/eventstream/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>/post/software/</link>
       <pubDate>Sat, 02 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/software/software-i-ve-written/</guid>
+      <guid>/post/software/</guid>
       <description>
 
 
-&lt;p&gt;&lt;a href=&#34;https://sevvandi.github.io/dobin/index.html&#34;&gt;dobin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;../../img/boards.jpg&#34; /&gt;&lt;!-- --&gt;&lt;/p&gt;
 </description>
     </item>
     
