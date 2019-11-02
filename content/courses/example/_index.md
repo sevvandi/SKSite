@@ -15,7 +15,7 @@ type: docs
 weight: 1
 ---
 
-## Flexibility
+## Flexibility la la la
 
 This feature can be used for publishing content such as:
 
