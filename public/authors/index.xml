@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,21 +15,213 @@
     <item>
       <title></title>
       <link>/authors/admin/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
       <description>&lt;p&gt;Hello! Thanks for visiting my site! 👋 This site is still under construction, so many sections are in their template form. I&amp;rsquo;m currently migrating from my &lt;a href=&#34;https://sites.google.com/view/sevvandik&#34; target=&#34;_blank&#34;&gt;previous site&lt;/a&gt; to this one. As this is still work in progress, my previous site has more accurate information about me. This will change soon.&lt;/p&gt;
 
-&lt;p&gt;I am a mathematician working on  data science related topics such as anomaly detection, meta-learning, streaming data and statistical and machine learning related research projects. I conduct research on theoretical and real-world problems. For example,  visualizing anomalies in high dimensions is a very tricky business.  How can we reduce dimensions in a way that anomalies are highlighted or brought to the forefront? (For details, see dobin.)&lt;/p&gt;
+&lt;p&gt;I am a mathematician working on  data science related topics such as anomaly detection, meta-learning, streaming data and statistical and machine learning related research projects. I conduct research on theoretical and real-world problems. For example,  visualizing anomalies in high dimensions is a very tricky business.  How can we reduce dimensions in a way that anomalies are highlighted or brought to the forefront? (For details, see &lt;a href=&#34;https://sevvandi.github.io/dobin/index.html&#34; target=&#34;_blank&#34;&gt;dobin&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;I come to statistical learning from a pure mathematics background.  My PhD was in mean curvature flow, which lies in the intersection of partial differential equations and differential geometry. I like to bring my geometric intuition to solve data science problems. More details can be found on my &lt;a href=&#34;/img/CV.pdf&#34;&gt;CV&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Robert Ford</title>
-      <link>/authors/robert-ford/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/authors/robert-ford/</guid>
+      <title>Catherine Leigh</title>
+      <link>/authors/catherine-leigh/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/catherine-leigh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Catherine Neelamraju</title>
+      <link>/authors/catherine-neelamraju/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/catherine-neelamraju/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Erin E. Peterson</title>
+      <link>/authors/erin-e.-peterson/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/erin-e.-peterson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Farhana Sadia</title>
+      <link>/authors/farhana-sadia/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/farhana-sadia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>James M McGree</title>
+      <link>/authors/james-m-mcgree/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/james-m-mcgree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>James M. McGree</title>
+      <link>/authors/james-m.-mcgree/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/james-m.-mcgree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jennifer Strauss</title>
+      <link>/authors/jennifer-strauss/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/jennifer-strauss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>John Head</title>
+      <link>/authors/john-head/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/john-head/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jonathan Keith</title>
+      <link>/authors/jonathan-keith/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/jonathan-keith/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kate Smith-Miles</title>
+      <link>/authors/kate-smith-miles/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/kate-smith-miles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kerrie Mengersen</title>
+      <link>/authors/kerrie-mengersen/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/kerrie-mengersen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mario A. Munoz</title>
+      <link>/authors/mario-a.-munoz/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/mario-a.-munoz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mario Andres Munoz</title>
+      <link>/authors/mario-andres-munoz/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/mario-andres-munoz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Olivia C King</title>
+      <link>/authors/olivia-c-king/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/olivia-c-king/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Omar Alsibai</title>
+      <link>/authors/omar-alsibai/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/omar-alsibai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>others</title>
+      <link>/authors/others/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/others/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Priyanga Dilini Talagala</title>
+      <link>/authors/priyanga-dilini-talagala/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/priyanga-dilini-talagala/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rob J Hyndman</title>
+      <link>/authors/rob-j-hyndman/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/rob-j-hyndman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rob J. Hyndman</title>
+      <link>/authors/rob-j.-hyndman/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/rob-j.-hyndman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ryan DR Turner</title>
+      <link>/authors/ryan-dr-turner/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/ryan-dr-turner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sevvandi Kandanaarachchi</title>
+      <link>/authors/sevvandi-kandanaarachchi/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/sevvandi-kandanaarachchi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maria Athanassenas</title>
+      <link>/authors/maria-athanassenas/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/maria-athanassenas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sevvandi. Kandanaarachchi</title>
+      <link>/authors/sevvandi.-kandanaarachchi/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/authors/sevvandi.-kandanaarachchi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shanon Ryan</title>
+      <link>/authors/shanon-ryan/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/shanon-ryan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stephen Thaler</title>
+      <link>/authors/stephen-thaler/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/authors/stephen-thaler/</guid>
       <description></description>
     </item>
     

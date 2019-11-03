@@ -5,7 +5,7 @@
     <link>/publication_types/2/</link>
       <atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>2</title>
@@ -13,24 +13,51 @@
     </image>
     
     <item>
-      <title>An example journal article</title>
-      <link>/publication/journal-article/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/journal-article/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <title>A framework for automated anomaly detection in high frequency water-quality data from in situ sensors</title>
+      <link>/publication/2019-01-01_a_framework_for_auto/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/2019-01-01_a_framework_for_auto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anomaly Detection in Streaming Nonstationary Temporal Data</title>
+      <link>/publication/2019-01-01_anomaly_detection_in/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/2019-01-01_anomaly_detection_in/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On normalization and algorithm selection for unsupervised outlier detection</title>
+      <link>/publication/2019-01-01_on_normalization_and/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/2019-01-01_on_normalization_and/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting sediment and nutrient concentrations from high-frequency water-quality data</title>
+      <link>/publication/2019-01-01_predicting_sediment_/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/2019-01-01_predicting_sediment_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine learning methods for predicting the outcome of hypervelocity impact events</title>
+      <link>/publication/2016-01-01_machine_learning_met/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/2016-01-01_machine_learning_met/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the convergence of axially symmetric volume preserving mean curvature flow</title>
+      <link>/publication/2012-01-01_on_the_convergence_o/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/2012-01-01_on_the_convergence_o/</guid>
+      <description></description>
     </item>
     
   </channel>
