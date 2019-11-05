@@ -1,8 +1,7 @@
 ---
 authors:
 - admin
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: ""
 education:
   courses:
   - course: Graduate Certificate in Data Mining and Applications
@@ -24,6 +23,7 @@ interests:
 - Streaming Data
 - Event detection
 - Meta-learning
+- Dimension Reduction
 name: Sevvandi Kandanaarachchi
 organizations:
 - name: Monash University
