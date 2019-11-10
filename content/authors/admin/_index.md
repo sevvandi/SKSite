@@ -48,8 +48,7 @@ user_groups:
 - Visitors
 ---
 
-Hello! Thanks for visiting my site! :wave: This site is still under construction, so many sections are in their template form. I'm currently migrating from my [previous site] (https://sites.google.com/view/sevvandik) to this one. As this is still work in progress, my previous site has more accurate information about me. This will change soon. 
-
+Hello! Thanks for visiting my site! :wave:  
 
 I am a mathematician working on  data science related topics such as anomaly detection, meta-learning, streaming data and statistical and machine learning related research projects. I conduct research on theoretical and real-world problems. For example,  visualizing anomalies in high dimensions is a very tricky business.  How can we reduce dimensions in a way that anomalies are highlighted or brought to the forefront? (For details, see [dobin](https://sevvandi.github.io/dobin/index.html)).
 

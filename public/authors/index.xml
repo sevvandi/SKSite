@@ -5,25 +5,12 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
       <link>/authors/</link>
     </image>
-    
-    <item>
-      <title></title>
-      <link>/authors/admin/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;Hello! Thanks for visiting my site! 👋 This site is still under construction, so many sections are in their template form. I&amp;rsquo;m currently migrating from my &lt;a href=&#34;https://sites.google.com/view/sevvandik&#34; target=&#34;_blank&#34;&gt;previous site&lt;/a&gt; to this one. As this is still work in progress, my previous site has more accurate information about me. This will change soon.&lt;/p&gt;
-
-&lt;p&gt;I am a mathematician working on  data science related topics such as anomaly detection, meta-learning, streaming data and statistical and machine learning related research projects. I conduct research on theoretical and real-world problems. For example,  visualizing anomalies in high dimensions is a very tricky business.  How can we reduce dimensions in a way that anomalies are highlighted or brought to the forefront? (For details, see &lt;a href=&#34;https://sevvandi.github.io/dobin/index.html&#34; target=&#34;_blank&#34;&gt;dobin&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;I come to statistical learning from a pure mathematics background.  My PhD was in mean curvature flow, which lies in the intersection of partial differential equations and differential geometry. I like to bring my geometric intuition to solve data science problems. More details can be found on my &lt;a href=&#34;/img/CV.pdf&#34;&gt;CV&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Catherine Leigh</title>
@@ -223,6 +210,19 @@
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       <guid>/authors/stephen-thaler/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;Hello! Thanks for visiting my site! 👋&lt;/p&gt;
+
+&lt;p&gt;I am a mathematician working on  data science related topics such as anomaly detection, meta-learning, streaming data and statistical and machine learning related research projects. I conduct research on theoretical and real-world problems. For example,  visualizing anomalies in high dimensions is a very tricky business.  How can we reduce dimensions in a way that anomalies are highlighted or brought to the forefront? (For details, see &lt;a href=&#34;https://sevvandi.github.io/dobin/index.html&#34; target=&#34;_blank&#34;&gt;dobin&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;I come to statistical learning from a pure mathematics background.  My PhD was in mean curvature flow, which lies in the intersection of partial differential equations and differential geometry. I like to bring my geometric intuition to solve data science problems. More details can be found on my &lt;a href=&#34;/img/CV.pdf&#34;&gt;CV&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
