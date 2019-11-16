@@ -55,6 +55,7 @@ head(ftrs)</code></pre>
 ## # ... with 9 more variables: e_acf1 &lt;dbl&gt;, e_acf10 &lt;dbl&gt;, entropy &lt;dbl&gt;,
 ## #   x_acf1 &lt;dbl&gt;, x_acf10 &lt;dbl&gt;, diff1_acf1 &lt;dbl&gt;, diff1_acf10 &lt;dbl&gt;,
 ## #   diff2_acf1 &lt;dbl&gt;, diff2_acf10 &lt;dbl&gt;</code></pre>
+<p>It is easier to find a good set of basis vectors that highlight outliers when there are a lot more points compared to the dimensions of the dataset, i.e. <span class="math inline">\(N &gt; p\)</span>. In this case the feature space is <span class="math inline">\(16\)</span> dimensional, and we have <span class="math inline">\(120\)</span> points, each point corresponding to a window of the time seires.</p>
 <p>Next we input these time series features to <em>dobin</em>.</p>
 <pre class="r"><code>ftrs %&gt;% dobin(norm=2) -&gt; out
 coords &lt;- as.data.frame(out$coords[ ,1:2])

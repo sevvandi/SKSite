@@ -56,6 +56,7 @@ head(ftrs)&lt;/code&gt;&lt;/pre&gt;
 ## # ... with 9 more variables: e_acf1 &amp;lt;dbl&amp;gt;, e_acf10 &amp;lt;dbl&amp;gt;, entropy &amp;lt;dbl&amp;gt;,
 ## #   x_acf1 &amp;lt;dbl&amp;gt;, x_acf10 &amp;lt;dbl&amp;gt;, diff1_acf1 &amp;lt;dbl&amp;gt;, diff1_acf10 &amp;lt;dbl&amp;gt;,
 ## #   diff2_acf1 &amp;lt;dbl&amp;gt;, diff2_acf10 &amp;lt;dbl&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It is easier to find a good set of basis vectors that highlight outliers when there are a lot more points compared to the dimensions of the dataset, i.e. &lt;span class=&#34;math inline&#34;&gt;\(N &amp;gt; p\)&lt;/span&gt;. In this case the feature space is &lt;span class=&#34;math inline&#34;&gt;\(16\)&lt;/span&gt; dimensional, and we have &lt;span class=&#34;math inline&#34;&gt;\(120\)&lt;/span&gt; points, each point corresponding to a window of the time seires.&lt;/p&gt;
 &lt;p&gt;Next we input these time series features to &lt;em&gt;dobin&lt;/em&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ftrs %&amp;gt;% dobin(norm=2) -&amp;gt; out
 coords &amp;lt;- as.data.frame(out$coords[ ,1:2])

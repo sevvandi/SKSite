@@ -48,6 +48,7 @@ my_data_list <- split(y, rep(1:120, each = 50))
 ftrs <- tsfeatures(my_data_list)
 head(ftrs)
 ```
+It is easier to find a good set of basis vectors that highlight outliers when there are a lot more points compared to the dimensions of the dataset, i.e. $N > p$. In this case the feature space is $16$ dimensional, and we have $120$ points, each point corresponding to a window of the time seires. 
 
 Next we input these time series features to *dobin*. 
 ```{r dobin, message=FALSE}
