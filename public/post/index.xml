@@ -5,12 +5,89 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 10 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 16 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>Using dobin for time series data</title>
+      <link>/post/dobin-for-time-series/</link>
+      <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/post/dobin-for-time-series/</guid>
+      <description>
+
+
+&lt;p&gt;The R package &lt;em&gt;dobin&lt;/em&gt; can be used as a dimension reduction tool for outlier detection. So, if we have a dataset of &lt;span class=&#34;math inline&#34;&gt;\(N\)&lt;/span&gt; independent observations, where each observation is of dimension &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;, &lt;em&gt;dobin&lt;/em&gt; can be used to find a new basis, such that the outliers of this dataset are highlighted using fewer basis vectors (see &lt;a href=&#34;https://sevvandi.github.io/dobin/index.html&#34;&gt;here&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;But, how do we use &lt;em&gt;dobin&lt;/em&gt; for time series data? &lt;em&gt;Dobin&lt;/em&gt; is not meant for raw time series data because it is time-dependent. But we can break a time series into consecutive non-overlapping windows and compute features of data in each window using an R package such as &lt;a href=&#34;https://pkg.robjhyndman.com/tsfeatures/&#34;&gt;&lt;em&gt;tsfeatures&lt;/em&gt;&lt;/a&gt;. If we compute &lt;span class=&#34;math inline&#34;&gt;\(d\)&lt;/span&gt; features, then data in each time series window will be denoted by a point in &lt;span class=&#34;math inline&#34;&gt;\(\mathbb{R}^d\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Let’s look at an example. We make a normally distributed time series of length &lt;span class=&#34;math inline&#34;&gt;\(6000\)&lt;/span&gt; and insert an outlier at the position &lt;span class=&#34;math inline&#34;&gt;\(1010\)&lt;/span&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;knitr::opts_chunk$set(cache=TRUE)
+library(tsfeatures)
+library(dplyr)
+library(dobin)
+library(ggplot2)
+
+set.seed(1)
+# Generate 6000 random normally distributed points for a time series
+y &amp;lt;- rnorm(6000)
+# Insert an additive outlier at position 1010
+y[1010] &amp;lt;- 6
+df &amp;lt;- cbind.data.frame(1:6000, y)
+colnames(df) &amp;lt;- c(&amp;quot;Index&amp;quot;, &amp;quot;Value&amp;quot;)
+ggplot(df, aes(Index, Value)) + geom_point() + theme_bw()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-11-16-using-dobin-for-time-series/index_files/figure-html/setup-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Now, let us break the time series into non-overlapping chunks of length &lt;span class=&#34;math inline&#34;&gt;\(50\)&lt;/span&gt;, i.e. we get &lt;span class=&#34;math inline&#34;&gt;\(120\)&lt;/span&gt; chunks or windows. Note that we need the time series to have a decent length to compute features. For each window we compute time series features using &lt;em&gt;tsfeatures&lt;/em&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Split the time series into windows of length 50
+my_data_list &amp;lt;- split(y, rep(1:120, each = 50))
+# Compute features of each chunk using tsfeatues
+ftrs &amp;lt;- tsfeatures(my_data_list)
+head(ftrs)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 6 x 16
+##   frequency nperiods seasonal_period  trend   spike linearity curvature
+##       &amp;lt;dbl&amp;gt;    &amp;lt;dbl&amp;gt;           &amp;lt;dbl&amp;gt;  &amp;lt;dbl&amp;gt;   &amp;lt;dbl&amp;gt;     &amp;lt;dbl&amp;gt;     &amp;lt;dbl&amp;gt;
+## 1         1        0               1 0.0506 1.01e-3     0.354    0.212 
+## 2         1        0               1 0.110  6.68e-4    -0.500    0.0679
+## 3         1        0               1 0.201  8.10e-4    -2.18    -0.836 
+## 4         1        0               1 0.129  5.11e-4    -0.402   -1.57  
+## 5         1        0               1 0.134  7.74e-4    -0.817    1.39  
+## 6         1        0               1 0.0673 1.06e-3     0.130    0.681 
+## # ... with 9 more variables: e_acf1 &amp;lt;dbl&amp;gt;, e_acf10 &amp;lt;dbl&amp;gt;, entropy &amp;lt;dbl&amp;gt;,
+## #   x_acf1 &amp;lt;dbl&amp;gt;, x_acf10 &amp;lt;dbl&amp;gt;, diff1_acf1 &amp;lt;dbl&amp;gt;, diff1_acf10 &amp;lt;dbl&amp;gt;,
+## #   diff2_acf1 &amp;lt;dbl&amp;gt;, diff2_acf10 &amp;lt;dbl&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Next we input these time series features to &lt;em&gt;dobin&lt;/em&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ftrs %&amp;gt;% dobin(norm=2) -&amp;gt; out
+coords &amp;lt;- as.data.frame(out$coords[ ,1:2])
+colnames(coords) &amp;lt;- c(&amp;quot;DC1&amp;quot;, &amp;quot;DC2&amp;quot;)
+ggplot(coords, aes(DC1, DC2)) + geom_point() + theme_bw()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-11-16-using-dobin-for-time-series/index_files/figure-html/dobin-1.png&#34; width=&#34;672&#34; /&gt; In the first and second dobin component space (DC1-DC2 space), we see a point appearing far away near &lt;span class=&#34;math inline&#34;&gt;\((15, -5)\)&lt;/span&gt;. Let’s investigate this point.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;inds &amp;lt;- which(coords[ ,1] &amp;gt; 10)
+inds&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 21&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;OK, this point is coming from window 21. Also, this point deviates in the DC1 axis. So, let us look at the first dobin vector.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# First dobin vector
+out$vec[ ,1]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##  [1]  0.00000000  0.00000000  0.00000000  0.12507580  0.91723338
+##  [6]  0.10686900  0.12483596  0.08128369  0.20790487 -0.08597682
+## [11]  0.06804500  0.17399103  0.05037166  0.08260081 -0.06594736
+## [16]  0.10098625&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;colnames(ftrs)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##  [1] &amp;quot;frequency&amp;quot;       &amp;quot;nperiods&amp;quot;        &amp;quot;seasonal_period&amp;quot;
+##  [4] &amp;quot;trend&amp;quot;           &amp;quot;spike&amp;quot;           &amp;quot;linearity&amp;quot;      
+##  [7] &amp;quot;curvature&amp;quot;       &amp;quot;e_acf1&amp;quot;          &amp;quot;e_acf10&amp;quot;        
+## [10] &amp;quot;entropy&amp;quot;         &amp;quot;x_acf1&amp;quot;          &amp;quot;x_acf10&amp;quot;        
+## [13] &amp;quot;diff1_acf1&amp;quot;      &amp;quot;diff1_acf10&amp;quot;     &amp;quot;diff2_acf1&amp;quot;     
+## [16] &amp;quot;diff2_acf10&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The first vector has a high value in &lt;strong&gt;spike&lt;/strong&gt; (0.9172334), which measures the amount of spikiness in a time series. Now, let’s have a look at the 21st window of the time series.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Make a dataframe from window 21
+df2 &amp;lt;- cbind.data.frame((1000 + 1:50), my_data_list[[inds]])
+colnames(df2) &amp;lt;- c(&amp;quot;Index&amp;quot;, &amp;quot;Value&amp;quot;)
+ggplot(df2, aes(Index, Value)) + geom_point() + geom_line() + theme_bw()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-11-16-using-dobin-for-time-series/index_files/figure-html/analysis3-1.png&#34; width=&#34;672&#34; /&gt; We see that we’ve picked up the spike corresponding to position &lt;span class=&#34;math inline&#34;&gt;\(1010\)&lt;/span&gt;, in the 21st window, because &lt;span class=&#34;math inline&#34;&gt;\(1010/50 = 20.2\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;So, in summary &lt;em&gt;dobin&lt;/em&gt; can be used as a dimension reduction technique for outlier detection for time series data, as long as the data is prepared appropriately.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Space junk podcast</title>
