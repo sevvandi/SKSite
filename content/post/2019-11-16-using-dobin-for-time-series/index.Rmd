@@ -39,7 +39,10 @@ colnames(df) <- c("Index", "Value")
 ggplot(df, aes(Index, Value)) + geom_point() + theme_bw()
 ```
 
-Now, let us break the time series into non-overlapping chunks of length $50$, i.e. we get $120$ chunks or windows. Note that we need the time series to have a decent length to compute features.  For each window we compute time series features using *tsfeatures*.
+Now, let us break the time series into non-overlapping chunks of length $50$, i.e. we get $120$ chunks or windows. Why do we use non-overlapping windows? If we use overlapping windows, say sliding by $1$, the outlying point in the time series contributes to $50$ windows. Later, when we compute features of these time series windows, these $50$ windows will have similar features, but they will not be outliers in the feature space, because there are $50$ of them. That is why we use non-overlapping windows. 
+
+
+Also, note that we need the time series to have a decent length to compute features.  For each window we compute time series features using *tsfeatures*.
 
 ```{r tsf, message=FALSE}
 # Split the time series into windows of length 50

@@ -37,7 +37,8 @@ df &lt;- cbind.data.frame(1:6000, y)
 colnames(df) &lt;- c(&quot;Index&quot;, &quot;Value&quot;)
 ggplot(df, aes(Index, Value)) + geom_point() + theme_bw()</code></pre>
 <p><img src="/post/2019-11-16-using-dobin-for-time-series/index_files/figure-html/setup-1.png" width="672" /></p>
-<p>Now, let us break the time series into non-overlapping chunks of length <span class="math inline">\(50\)</span>, i.e. we get <span class="math inline">\(120\)</span> chunks or windows. Note that we need the time series to have a decent length to compute features. For each window we compute time series features using <em>tsfeatures</em>.</p>
+<p>Now, let us break the time series into non-overlapping chunks of length <span class="math inline">\(50\)</span>, i.e. we get <span class="math inline">\(120\)</span> chunks or windows. Why do we use non-overlapping windows? If we use overlapping windows, say sliding by <span class="math inline">\(1\)</span>, the outlying point in the time series contributes to <span class="math inline">\(50\)</span> windows. Later, when we compute features of these time series windows, these <span class="math inline">\(50\)</span> windows will have similar features, but they will not be outliers in the feature space, because there are <span class="math inline">\(50\)</span> of them. That is why we use non-overlapping windows.</p>
+<p>Also, note that we need the time series to have a decent length to compute features. For each window we compute time series features using <em>tsfeatures</em>.</p>
 <pre class="r"><code># Split the time series into windows of length 50
 my_data_list &lt;- split(y, rep(1:120, each = 50))
 # Compute features of each chunk using tsfeatues
