@@ -1,6 +1,6 @@
 ---
-date: "2019-11-02T00:00:00Z"
-external_link: https://github.com/sevvandi/eventstream
+date: "2019-11-24T00:00:00Z"
+external_link: https://sevvandi.github.io/eventstream/index.html
 image:
   caption: 
   focal_point: Smart

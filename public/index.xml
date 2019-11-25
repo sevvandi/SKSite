@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Sevvandi Kandanaarachchi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 16 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 24 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Sevvandi Kandanaarachchi</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>eventstream</title>
+      <link>/software/eventstream/</link>
+      <pubDate>Sun, 24 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/software/eventstream/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Using dobin for time series data</title>
@@ -110,14 +118,6 @@ ggplot(df2, aes(Index, Value)) + geom_point() + geom_line() + theme_bw()&lt;/cod
       <link>/software/dobin/</link>
       <pubDate>Sat, 02 Nov 2019 14:42:00 +0000</pubDate>
       <guid>/software/dobin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>eventstream</title>
-      <link>/software/eventstream/</link>
-      <pubDate>Sat, 02 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/software/eventstream/</guid>
       <description></description>
     </item>
     
