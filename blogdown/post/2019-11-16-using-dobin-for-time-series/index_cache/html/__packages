@@ -4,3 +4,11 @@ dplyr
 dobin
 ggplot2
 janitor
+forecast
+fma
+expsmooth
+zoo
+lmtest
+tseries
+fpp
+tsdl

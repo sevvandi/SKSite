@@ -22,6 +22,8 @@
 
 &lt;p&gt;The R package &lt;em&gt;dobin&lt;/em&gt; can be used as a dimension reduction tool for outlier detection. So, if we have a dataset of &lt;span class=&#34;math inline&#34;&gt;\(N\)&lt;/span&gt; independent observations, where each observation is of dimension &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;, &lt;em&gt;dobin&lt;/em&gt; can be used to find a new basis, such that the outliers of this dataset are highlighted using fewer basis vectors (see &lt;a href=&#34;https://sevvandi.github.io/dobin/index.html&#34;&gt;here&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;But, how do we use &lt;em&gt;dobin&lt;/em&gt; for time series data? &lt;em&gt;Dobin&lt;/em&gt; is not meant for raw time series data because it is time-dependent. But we can break a time series into consecutive non-overlapping windows and compute features of data in each window using an R package such as &lt;a href=&#34;https://pkg.robjhyndman.com/tsfeatures/&#34;&gt;&lt;em&gt;tsfeatures&lt;/em&gt;&lt;/a&gt;. If we compute &lt;span class=&#34;math inline&#34;&gt;\(d\)&lt;/span&gt; features, then data in each time series window will be denoted by a point in &lt;span class=&#34;math inline&#34;&gt;\(\mathbb{R}^d\)&lt;/span&gt;.&lt;/p&gt;
+&lt;div id=&#34;a-synthetic-example&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;A Synthetic Example&lt;/h2&gt;
 &lt;p&gt;Let’s look at an example. We make a normally distributed time series of length &lt;span class=&#34;math inline&#34;&gt;\(6000\)&lt;/span&gt; and insert an outlier at the position &lt;span class=&#34;math inline&#34;&gt;\(1010\)&lt;/span&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;knitr::opts_chunk$set(cache=TRUE)
 library(tsfeatures)
@@ -87,7 +89,41 @@ df2 &amp;lt;- cbind.data.frame((1000 + 1:50), my_data_list[[inds]])
 colnames(df2) &amp;lt;- c(&amp;quot;Index&amp;quot;, &amp;quot;Value&amp;quot;)
 ggplot(df2, aes(Index, Value)) + geom_point() + geom_line() + theme_bw()&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&#34;/post/2019-11-16-using-dobin-for-time-series/index_files/figure-html/analysis3-1.png&#34; width=&#34;672&#34; /&gt; We see that we’ve picked up the spike corresponding to position &lt;span class=&#34;math inline&#34;&gt;\(1010\)&lt;/span&gt;, in the 21st window, because &lt;span class=&#34;math inline&#34;&gt;\(1010/50 = 20.2\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;a-real-example&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;A Real Example&lt;/h2&gt;
+&lt;p&gt;Next we look at a real world example containing the streamflow from Mad River near Springfield, Ohio from 1915- 1960.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(fpp)
+library(ggplot2)
+library(tsfeatures)
+library(dobin)
+library(tsdl)
+
+tt &amp;lt;- tsdl[[77]]
+autoplot(tt) +  ggtitle(&amp;quot;Mad River near Springfield OH 1915- 1960&amp;quot;) +
+  xlab(&amp;quot;Year&amp;quot;) +  ylab(&amp;quot;Streamflow&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-11-16-using-dobin-for-time-series/index_files/figure-html/realEx-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Let’s split the time series into non-overlapping windows and compute features as before.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;my_data_list &amp;lt;- split(tt, rep(1:23, each = 24))
+# Compute features of each chunk using tsfeatues
+ftrs &amp;lt;- tsfeatures(my_data_list)
+
+ftrs[ ,4:7] %&amp;gt;% dobin() -&amp;gt; out
+
+coords &amp;lt;- as.data.frame(out$coords[ ,1:2])
+colnames(coords) &amp;lt;- c(&amp;quot;DC1&amp;quot;, &amp;quot;DC2&amp;quot;)
+ggplot(coords, aes(DC1, DC2)) + geom_point(size=2) + theme_bw()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-11-16-using-dobin-for-time-series/index_files/figure-html/feat2-1.png&#34; width=&#34;672&#34; /&gt; We see a point having a DC1 value greater than 1. Let us investigate that point.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ind &amp;lt;- which(coords[ ,1] &amp;gt; 1)
+ind&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 12&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;df &amp;lt;- cbind.data.frame((11*24+1):(12*24), my_data_list[[ind]])
+colnames(df) &amp;lt;- c(&amp;quot;Index&amp;quot;, &amp;quot;Streamflow&amp;quot;)
+ggplot(df, aes(Index, Streamflow)) + geom_point() + geom_line()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2019-11-16-using-dobin-for-time-series/index_files/figure-html/dobin2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;We see this point corresponds to the window with the highest spike in the time series, as this is the only spike greater than 75 units.&lt;/p&gt;
 &lt;p&gt;So, in summary &lt;em&gt;dobin&lt;/em&gt; can be used as a dimension reduction technique for outlier detection for time series data, as long as the data is prepared appropriately.&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     
