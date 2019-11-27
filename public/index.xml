@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Sevvandi Kandanaarachchi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 24 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 28 Nov 2019 14:30:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Sevvandi Kandanaarachchi</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>DOBIN - Dimension Reduction for Outlier Detection</title>
+      <link>/talk/wombat_2019/</link>
+      <pubDate>Thu, 28 Nov 2019 14:30:00 +0000</pubDate>
+      <guid>/talk/wombat_2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>eventstream</title>
