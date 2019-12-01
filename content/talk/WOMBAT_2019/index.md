@@ -8,8 +8,8 @@ address:
   street: 
 all_day: false
 authors: []
-date: "2019-11-28T14:30:00Z"
-event: ISF 2019
+date: "2019-11-28T15:30:00Z"
+event: WOMBAT 2019
 event_url: "https://www.monash.edu/business/wombat2019"
 featured: false
 image:
