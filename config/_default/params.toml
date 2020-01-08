@@ -44,7 +44,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "Sevvandi Kandanaarachchi"
 
 # Display a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
@@ -107,7 +107,7 @@ coordinates = {latitude = "-37.912519", longitude = "145.132637"}
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "envelope", icon_pack = "fas", name = "sevvandi.kandanaarachchi@monash.edu", link = "mailto:sevvandi.kandanaarachchi@monash.ed"},
+  {icon = "envelope", icon_pack = "fas", name = "sevvandi.kandanaarachchi@unimelb.edu.au", link = "mailto:sevvandi.kandanaarachchi@monash.ed"},
   {icon = "google-scholar", icon_pack = "ai", name = "Google Scholar", link = "https://scholar.google.com.au/citations?user=oA9YsjkAAAAJ&hl=en"},
   {icon = "github", icon_pack = "fab", name = "sevvandi on GitHub", link = "https://github.com/sevvandi"},
   {icon = "twitter", icon_pack = "fab", name = "@Sevvandik", link = "https://twitter.com/Sevvandik"},

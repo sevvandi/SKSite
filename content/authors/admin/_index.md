@@ -26,9 +26,9 @@ interests:
 - Dimension Reduction
 name: Sevvandi Kandanaarachchi
 organizations:
-- name: Monash University
+- name: University of Melbourne
   url: ""
-role: Research Fellow, Department of Econometrics and Business Statistics
+role: Research Fellow, School of Mathematics and Statistics
 social:
 - icon: envelope
   icon_pack: fas
