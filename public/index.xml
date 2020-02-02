@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Sevvandi Kandanaarachchi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 28 Nov 2019 15:30:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Sevvandi Kandanaarachchi</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Early detection of vegetation ignition due to powerline faults</title>
+      <link>/preprint/2020-01-01_early_detection_of_v/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/preprint/2020-01-01_early_detection_of_v/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DOBIN - Dimension Reduction for Outlier Detection</title>

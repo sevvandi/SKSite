@@ -5,12 +5,36 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
       <link>/authors/</link>
     </image>
+    
+    <item>
+      <title>Mario A Munoz</title>
+      <link>/authors/mario-a-munoz/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/mario-a-munoz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nandini Anantharama</title>
+      <link>/authors/nandini-anantharama/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/nandini-anantharama/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sevvandi Kandanaarachchi</title>
+      <link>/authors/sevvandi-kandanaarachchi/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/sevvandi-kandanaarachchi/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Catherine Leigh</title>
@@ -169,14 +193,6 @@
       <link>/authors/ryan-dr-turner/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/authors/ryan-dr-turner/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sevvandi Kandanaarachchi</title>
-      <link>/authors/sevvandi-kandanaarachchi/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/sevvandi-kandanaarachchi/</guid>
       <description></description>
     </item>
     
