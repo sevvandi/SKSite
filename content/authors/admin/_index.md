@@ -26,9 +26,9 @@ interests:
 - Dimension Reduction
 name: Sevvandi Kandanaarachchi
 organizations:
-- name: University of Melbourne
+- name: RMIT University
   url: ""
-role: Research Fellow, School of Mathematics and Statistics
+role: Lecturer, Mathematical Sciences
 social:
 - icon: envelope
   icon_pack: fas

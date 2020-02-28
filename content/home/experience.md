@@ -18,12 +18,22 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Lecturer"
+  company = "Mathematical Sciences, School of Science, RMIT University"
+  company_url = ""
+  location = "Melbourne City"
+  date_start = "2020-02-26"
+  date_end = ""
+  description = """
+  """
+
+[[experience]]
   title = "Research Fellow"
   company = "School of Mathematics and Statistics, University of Melbourne"
   company_url = ""
   location = "Parkville, Melbourne"
   date_start = "2020-01-07"
-  date_end = ""
+  date_end = "2020-02-25"
   description = """
   """
 
