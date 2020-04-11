@@ -1,6 +1,6 @@
 +++
 title = "Early classification of spatio-temporal events using partial information"
-date = "2018-01-01"
+date = "2019-01-01"
 authors = ["Sevvandi Kandanaarachchi", "Rob J Hyndman", "Kate Smith-Miles"]
 publication_types = ["4"]
 publication = "Working Paper"

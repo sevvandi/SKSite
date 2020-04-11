@@ -21,6 +21,22 @@
     </item>
     
     <item>
+      <title>On normalization and algorithm selection for unsupervised outlier detection</title>
+      <link>/publication/2020-01-01_on_normalization_and/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/2020-01-01_on_normalization_and/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Singularities of axially symmetric volume preserving mean curvature flow</title>
+      <link>/publication/2020-01-01_singularities_of_axi/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/2020-01-01_singularities_of_axi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>DOBIN - Dimension Reduction for Outlier Detection</title>
       <link>/talk/wombat_2019/</link>
       <pubDate>Thu, 28 Nov 2019 15:30:00 +0000</pubDate>
@@ -198,7 +214,7 @@ ggplot(df, aes(Index, Streamflow)) + geom_point() + geom_line()&lt;/code&gt;&lt;
     </item>
     
     <item>
-      <title>Anomaly Detection in Streaming Nonstationary Temporal Data</title>
+      <title>Anomaly detection in streaming nonstationary temporal data</title>
       <link>/publication/2019-01-01_anomaly_detection_in/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/publication/2019-01-01_anomaly_detection_in/</guid>
@@ -210,6 +226,14 @@ ggplot(df, aes(Index, Streamflow)) + geom_point() + geom_line()&lt;/code&gt;&lt;
       <link>/preprint/2019-01-01_dimension_reduction_/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/preprint/2019-01-01_dimension_reduction_/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Early classification of spatio-temporal events using partial information</title>
+      <link>/preprint/2019-01-01_early_classification/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/preprint/2019-01-01_early_classification/</guid>
       <description></description>
     </item>
     
@@ -226,14 +250,6 @@ ggplot(df, aes(Index, Streamflow)) + geom_point() + geom_line()&lt;/code&gt;&lt;
       <link>/publication/2019-01-01_instance_space_analy/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/publication/2019-01-01_instance_space_analy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>On normalization and algorithm selection for unsupervised outlier detection</title>
-      <link>/publication/2019-01-01_on_normalization_and/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/2019-01-01_on_normalization_and/</guid>
       <description></description>
     </item>
     
@@ -280,26 +296,10 @@ ggplot(df, aes(Index, Streamflow)) + geom_point() + geom_line()&lt;/code&gt;&lt;
     </item>
     
     <item>
-      <title>Early classification of spatio-temporal events using partial information</title>
-      <link>/preprint/2018-01-01_early_classification/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>/preprint/2018-01-01_early_classification/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>On the extension of axially symmetric volume preserving mean curvature flow</title>
       <link>/preprint/2017-01-01_on_the_extension_of_/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>/preprint/2017-01-01_on_the_extension_of_/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Singularities of axially symmetric volume preserving mean curvature flow</title>
-      <link>/preprint/2017-01-01_singularities_of_axi/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/preprint/2017-01-01_singularities_of_axi/</guid>
       <description></description>
     </item>
     

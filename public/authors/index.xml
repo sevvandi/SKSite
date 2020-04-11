@@ -13,6 +13,22 @@
     </image>
     
     <item>
+      <title>Kate Smith-Miles</title>
+      <link>/authors/kate-smith-miles/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/kate-smith-miles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maria Athanassenas</title>
+      <link>/authors/maria-athanassenas/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/maria-athanassenas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mario A Munoz</title>
       <link>/authors/mario-a-munoz/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
@@ -25,6 +41,14 @@
       <link>/authors/nandini-anantharama/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>/authors/nandini-anantharama/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rob J Hyndman</title>
+      <link>/authors/rob-j-hyndman/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/rob-j-hyndman/</guid>
       <description></description>
     </item>
     
@@ -109,14 +133,6 @@
     </item>
     
     <item>
-      <title>Kate Smith-Miles</title>
-      <link>/authors/kate-smith-miles/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/kate-smith-miles/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Kerrie Mengersen</title>
       <link>/authors/kerrie-mengersen/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -129,14 +145,6 @@
       <link>/authors/mario-a.-munoz/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/authors/mario-a.-munoz/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mario Andres Munoz</title>
-      <link>/authors/mario-andres-munoz/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/mario-andres-munoz/</guid>
       <description></description>
     </item>
     
@@ -173,14 +181,6 @@
     </item>
     
     <item>
-      <title>Rob J Hyndman</title>
-      <link>/authors/rob-j-hyndman/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/rob-j-hyndman/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Rob J. Hyndman</title>
       <link>/authors/rob-j.-hyndman/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -193,22 +193,6 @@
       <link>/authors/ryan-dr-turner/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/authors/ryan-dr-turner/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Maria Athanassenas</title>
-      <link>/authors/maria-athanassenas/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/authors/maria-athanassenas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sevvandi. Kandanaarachchi</title>
-      <link>/authors/sevvandi.-kandanaarachchi/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>/authors/sevvandi.-kandanaarachchi/</guid>
       <description></description>
     </item>
     
