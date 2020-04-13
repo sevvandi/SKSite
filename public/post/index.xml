@@ -5,12 +5,25 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 16 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 13 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>Tips for increasing your happiness</title>
+      <link>/post/2020-04-13-tips-for-increasing-your-happiness/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/post/2020-04-13-tips-for-increasing-your-happiness/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Teaching first year students made me realize how difficult it is for young people to stay at home all the time, specially during this COVID-19 crisis. My understanding is that it makes people frustrated and unhappy. How can we support them? Are there tips that can help? Here is a list of things that I think will help to increase your sense of well being. Give it a try! &lt;img src=&#34;featured.JPG&#34; alt=&#34;Alt text&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Using dobin for time series data</title>

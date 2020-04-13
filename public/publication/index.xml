@@ -5,7 +5,7 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Publications</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>On normalization and algorithm selection for unsupervised outlier detection</title>
-      <link>/publication/2020-01-01_on_normalization_and/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/2020-01-01_on_normalization_and/</guid>
+      <title>Singularities of axially symmetric volume preserving mean curvature flow</title>
+      <link>/publication/2020-01-01_singularities_of_axi/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/2020-01-01_singularities_of_axi/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Singularities of axially symmetric volume preserving mean curvature flow</title>
-      <link>/publication/2020-01-01_singularities_of_axi/</link>
+      <title>On normalization and algorithm selection for unsupervised outlier detection</title>
+      <link>/publication/2020-01-01_on_normalization_and/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/2020-01-01_singularities_of_axi/</guid>
+      <guid>/publication/2020-01-01_on_normalization_and/</guid>
       <description></description>
     </item>
     

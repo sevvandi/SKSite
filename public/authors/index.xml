@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,18 +13,26 @@
     </image>
     
     <item>
-      <title>Kate Smith-Miles</title>
-      <link>/authors/kate-smith-miles/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/kate-smith-miles/</guid>
+      <title>Maria Athanassenas</title>
+      <link>/authors/maria-athanassenas/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/maria-athanassenas/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Maria Athanassenas</title>
-      <link>/authors/maria-athanassenas/</link>
+      <title>Sevvandi Kandanaarachchi</title>
+      <link>/authors/sevvandi-kandanaarachchi/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/sevvandi-kandanaarachchi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kate Smith-Miles</title>
+      <link>/authors/kate-smith-miles/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/maria-athanassenas/</guid>
+      <guid>/authors/kate-smith-miles/</guid>
       <description></description>
     </item>
     
@@ -49,14 +57,6 @@
       <link>/authors/rob-j-hyndman/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>/authors/rob-j-hyndman/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sevvandi Kandanaarachchi</title>
-      <link>/authors/sevvandi-kandanaarachchi/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/sevvandi-kandanaarachchi/</guid>
       <description></description>
     </item>
     

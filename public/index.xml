@@ -5,12 +5,33 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Sevvandi Kandanaarachchi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 13 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Sevvandi Kandanaarachchi</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Tips for increasing your happiness</title>
+      <link>/post/2020-04-13-tips-for-increasing-your-happiness/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/post/2020-04-13-tips-for-increasing-your-happiness/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Teaching first year students made me realize how difficult it is for young people to stay at home all the time, specially during this COVID-19 crisis. My understanding is that it makes people frustrated and unhappy. How can we support them? Are there tips that can help? Here is a list of things that I think will help to increase your sense of well being. Give it a try! &lt;img src=&#34;featured.JPG&#34; alt=&#34;Alt text&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Singularities of axially symmetric volume preserving mean curvature flow</title>
+      <link>/publication/2020-01-01_singularities_of_axi/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/2020-01-01_singularities_of_axi/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Early detection of vegetation ignition due to powerline faults</title>
@@ -25,14 +46,6 @@
       <link>/publication/2020-01-01_on_normalization_and/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>/publication/2020-01-01_on_normalization_and/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Singularities of axially symmetric volume preserving mean curvature flow</title>
-      <link>/publication/2020-01-01_singularities_of_axi/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/2020-01-01_singularities_of_axi/</guid>
       <description></description>
     </item>
     
