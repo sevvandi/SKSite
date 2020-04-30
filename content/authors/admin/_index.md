@@ -52,4 +52,8 @@ Hello! Thanks for visiting my site! :wave:
 
 I am a mathematician working on  data science related topics such as anomaly detection, meta-learning and streaming data. I conduct research on theoretical and real-world problems. For example,  visualizing anomalies in high dimensions is a very tricky business.  How can we reduce dimensions in a way that anomalies are highlighted or brought to the forefront? (For details, see [dobin](https://sevvandi.github.io/dobin/index.html)).
 
-I come to statistical learning from a pure mathematics background.  My PhD was in mean curvature flow, which lies in the intersection of partial differential equations and differential geometry. I like to bring my geometric intuition to solve data science problems. More details can be found on my [CV](/img/CV.pdf).
+I also like working on real world problems, especially ones that are motivated by industry. From 2016 to 2019, I worked with an industry partner on intrusion detection. I'm also interested in bushfire mitigation research. 
+
+I came to statistical learning from a pure mathematics background.  My PhD was in mean curvature flow, which lies in the intersection of partial differential equations and differential geometry. I like to bring my geometric intuition to solve data science problems. 
+
+More details can be found on my [CV](/img/CV.pdf).
