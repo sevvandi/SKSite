@@ -27,7 +27,7 @@ The students are assigned video lectures which they need to watch before coming 
 I have designed lab components for some mathematics courses. These labs concentrate on applications and are conducted in a very interactive manner. 
 
 #### Similar to clickers
-Similar to clickers, I've used an SMS based program to capture student answers to questions asked during lectures. This program changed the traditional classroom to an interactive and dynamic environment. 
+Similar to clickers, I've used an SMS based app to capture student answers to questions asked during lectures. This app changed the traditional classroom to an interactive and dynamic environment. 
  
 
 
