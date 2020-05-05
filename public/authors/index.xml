@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,18 +13,26 @@
     </image>
     
     <item>
-      <title>Maria Athanassenas</title>
-      <link>/authors/maria-athanassenas/</link>
-      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/maria-athanassenas/</guid>
+      <title>Sevvandi Kandanaarachchi</title>
+      <link>/authors/sevvandi-kandanaarachchi/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/sevvandi-kandanaarachchi/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Sevvandi Kandanaarachchi</title>
-      <link>/authors/sevvandi-kandanaarachchi/</link>
+      <title>Smith-Miles Kate</title>
+      <link>/authors/smith-miles-kate/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/smith-miles-kate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Maria Athanassenas</title>
+      <link>/authors/maria-athanassenas/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/sevvandi-kandanaarachchi/</guid>
+      <guid>/authors/maria-athanassenas/</guid>
       <description></description>
     </item>
     
