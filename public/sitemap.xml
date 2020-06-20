@@ -3,31 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/software/airt/</loc>
-    <lastmod>2020-05-05T21:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-05-05T21:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/software/</loc>
-    <lastmod>2020-05-05T21:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/software/</loc>
-    <lastmod>2020-05-05T21:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-05-05T21:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication_types/4/</loc>
     <lastmod>2020-05-05T00:00:00+00:00</lastmod>
   </url>
@@ -54,6 +29,11 @@
   
   <url>
     <loc>/preprint/</loc>
+    <lastmod>2020-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
     <lastmod>2020-05-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -95,6 +75,26 @@
   <url>
     <loc>/publication/2020-01-01_singularities_of_axi/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/software/airt/</loc>
+    <lastmod>2020-01-05T21:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/software/</loc>
+    <lastmod>2020-01-05T21:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/software/</loc>
+    <lastmod>2020-01-05T21:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-01-05T21:00:00+00:00</lastmod>
   </url>
   
   <url>

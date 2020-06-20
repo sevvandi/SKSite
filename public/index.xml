@@ -5,20 +5,12 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Sevvandi Kandanaarachchi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 May 2020 21:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Sevvandi Kandanaarachchi</title>
       <link>/</link>
     </image>
-    
-    <item>
-      <title>airt</title>
-      <link>/software/airt/</link>
-      <pubDate>Tue, 05 May 2020 21:00:00 +0000</pubDate>
-      <guid>/software/airt/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Evaluating algorithms using Item Response Theory</title>
@@ -61,6 +53,14 @@ Before the 2020 self-isolation period (also known as the lockdown) &lt;a href=&#
       <link>/publication/2020-01-01_singularities_of_axi/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       <guid>/publication/2020-01-01_singularities_of_axi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>airt</title>
+      <link>/software/airt/</link>
+      <pubDate>Sun, 05 Jan 2020 21:00:00 +0000</pubDate>
+      <guid>/software/airt/</guid>
       <description></description>
     </item>
     
