@@ -1,0 +1,18 @@
+---
+title: Two more Podcasts with Rob Hyndman and Gael Martin
+author: Sevvandi Kandanaarachchi
+date: '2020-06-20'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-06-20T19:33:27+10:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---

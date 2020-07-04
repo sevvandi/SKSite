@@ -5,12 +5,36 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 05 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 04 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
       <link>/authors/</link>
     </image>
+    
+    <item>
+      <title>M. A. Munoz</title>
+      <link>/authors/m.-a.-munoz/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/m.-a.-munoz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>N. Anantharama</title>
+      <link>/authors/n.-anantharama/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/n.-anantharama/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>S. Kandanaarachchi</title>
+      <link>/authors/s.-kandanaarachchi/</link>
+      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/s.-kandanaarachchi/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Kate Smith-Miles</title>
@@ -41,14 +65,6 @@
       <link>/authors/mario-a-munoz/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>/authors/mario-a-munoz/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nandini Anantharama</title>
-      <link>/authors/nandini-anantharama/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/nandini-anantharama/</guid>
       <description></description>
     </item>
     
