@@ -1,0 +1,22 @@
+---
+title: Rob Hyndman's podcast on forecasting
+author: Sevvandi Kandanaarachchi
+date: '2020-05-30'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-05-30T21:54:21+10:00'
+featured: no
+image:
+  caption: 
+  focal_point: ''
+  preview_only: yes
+projects: []
+---
+Are you interested in forecasting? Well, [Anthony Mays](https://acems.org.au/our-people/anthony-mays) and myself did a podcast with [Prof Rob Hyndman](https://robjhyndman.com/) from Monash University on this topic. This episode is a part of the ACEMS podcast series *Random Sample* and can be found at https://acems.org.au/podcast/episode-29-forecasting-the-future  
+
+
+In this episode, Rob explains time series forecasting really well. He gives such interesting anecdotes from his vast experience. I really enjoyed conducting this podcast, so much so that I forgot to take a photo. That is my only regret. 

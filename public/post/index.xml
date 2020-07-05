@@ -5,27 +5,12 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 13 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
-    
-    <item>
-      <title>Patricia&#39;s podcast on Antarctica</title>
-      <link>/post/2020-04-30-patricia-s-podcast/</link>
-      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/post/2020-04-30-patricia-s-podcast/</guid>
-      <description>
-&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;p&gt;&lt;img src=&#34;/img/Patricia_Podcast.jpg&#34; /&gt;
-Before the 2020 self-isolation period (also known as the lockdown) &lt;a href=&#34;https://acems.org.au/our-people/tim-macuga&#34;&gt;Tim Macuga&lt;/a&gt; from ACEMS and I informally interviewed &lt;a href=&#34;https://www.patriciamenendez.com/&#34;&gt;Patricia Menéndez&lt;/a&gt; from Monash University and made a podcast. Even though it was an informal chat, it was pretty special because it was about Patricia’s &lt;a href=&#34;https://homewardboundprojects.com.au/about/&#34;&gt;Homeward Bound&lt;/a&gt; trip to Antarctica.&lt;/p&gt;
-&lt;p&gt;I felt she took us there with her evocative expressions. This podcast is part of the ACEMS podcast series &lt;em&gt;Random Sample&lt;/em&gt; and can be found at &lt;a href=&#34;https://acems.org.au/podcast/episode-24-Antarctic-Outreach&#34; class=&#34;uri&#34;&gt;https://acems.org.au/podcast/episode-24-Antarctic-Outreach&lt;/a&gt; where there are lovely pictures of Antarctica. Don’t miss it.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Tips for increasing your happiness</title>
@@ -152,20 +137,6 @@ ggplot(df, aes(Index, Streamflow)) + geom_point() + geom_line()&lt;/code&gt;&lt;
 &lt;p&gt;We see this point corresponds to the window with the highest spike in the time series, as this is the only spike greater than 75 units.&lt;/p&gt;
 &lt;p&gt;So, in summary &lt;em&gt;dobin&lt;/em&gt; can be used as a dimension reduction technique for outlier detection for time series data, as long as the data is prepared appropriately.&lt;/p&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Space junk podcast</title>
-      <link>/post/space_debris/</link>
-      <pubDate>Sun, 10 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/post/space_debris/</guid>
-      <description>
-
-
-&lt;p&gt;We humans leave such a lot of junk in space. If you’re interested in space junk, you can listen to two podcasts that I co-conducted with &lt;a href=&#34;https://acems.org.au/our-people/anthony-mays&#34;&gt;Anthony Mays&lt;/a&gt; on the topic. These episodes were part of the ACEMS podcast series &lt;em&gt;Random Sample&lt;/em&gt; and can be found &lt;a href=&#34;https://acems.org.au/podcast/episodes12-13-space-junk-shield-tech&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In the first episode, we talk about space junk and one of the related research papers that I wrote with &lt;a href=&#34;https://www.dst.defence.gov.au/staff/dr-shannon-ryan&#34;&gt;Dr Shannon Ryan&lt;/a&gt; from DST Group and &lt;a href=&#34;https://katesmithmiles.wixsite.com/home&#34;&gt;Prof Kate Smith-Miles&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In the second episode we interview Shannon and &lt;a href=&#34;https://people.mst.edu/faculty/wschon/&#34;&gt;Prof Bill Schonberg&lt;/a&gt;, two space junk experts about space craft shields and the lastest technology.&lt;/p&gt;
 </description>
     </item>
     

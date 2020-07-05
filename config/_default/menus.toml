@@ -23,17 +23,15 @@
   url = "#software"
   weight = 40
 
-#[[main]]
-#  name = "Projects"
-#  url = "#projects"
-#  weight = 50
-
-
 [[main]]
   name = "Posts"
   url = "#posts"
   weight = 50
 
+[[main]]
+  name = "Podcasts"
+  url = "#podcasts"
+  weight = 55
 
 [[main]]
   name = "Teaching"

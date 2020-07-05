@@ -1,0 +1,22 @@
+---
+title: Gael Martin's podcast on Bayesian Statistics
+author: Sevvandi Kandanaarachchi
+date: '2020-06-20'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-06-20T21:54:21+10:00'
+featured: no
+image:
+  caption: 'Image credit: Tim Macuga'
+  focal_point: ''
+  preview_only: yes
+projects: []
+---
+![](/img/Gael_pic.jpg)
+During the 2020 self-isolation period [Tim Macuga](https://acems.org.au/our-people/tim-macuga) from ACEMS and I interviewed [Prof Gael Martin](http://users.monash.edu.au/~gmartin/) from Monash University via zoom and made a podcast. This is available at https://acems.org.au/podcast/episode-32-bayes-theorem. 
+
+Gael gave a brief history of the Bayes Theorem and explained how it became so powerful a tool in today's computational world. She gave examples and explained some theoretical stuff too. Pretty cool! 
