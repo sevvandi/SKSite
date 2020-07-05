@@ -22,9 +22,9 @@
     
     <item>
       <title>Gael Martin&#39;s podcast on Bayesian Statistics</title>
-      <link>/podcasts/2020-06-20-gaels-podcast/</link>
+      <link>/podcasts/2020-06-30-gaels-podcast/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/podcasts/2020-06-20-gaels-podcast/</guid>
+      <guid>/podcasts/2020-06-30-gaels-podcast/</guid>
       <description>
 &lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
@@ -32,6 +32,7 @@
 &lt;p&gt;&lt;img src=&#34;/img/Gael_pic.jpg&#34; /&gt;
 During the 2020 working-from-home period &lt;a href=&#34;https://acems.org.au/our-people/tim-macuga&#34;&gt;Tim Macuga&lt;/a&gt; from ACEMS and I interviewed &lt;a href=&#34;http://users.monash.edu.au/~gmartin/&#34;&gt;Prof Gael Martin&lt;/a&gt; from Monash University via zoom and made a podcast. This is available at &lt;a href=&#34;https://acems.org.au/podcast/episode-32-bayes-theorem&#34; class=&#34;uri&#34;&gt;https://acems.org.au/podcast/episode-32-bayes-theorem&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Gael gave a brief history of the Bayes Theorem and explained how it became so powerful a tool in today’s computational world. She gave examples and explained some theoretical stuff too. Pretty cool!&lt;/p&gt;
+&lt;p&gt;In this episode she also explains the differences between Bayesian and Frequentist paradigms and discusses how Bayesian computation developed over the years.&lt;/p&gt;
 </description>
     </item>
     

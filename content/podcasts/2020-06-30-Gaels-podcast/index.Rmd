@@ -20,3 +20,6 @@ projects: []
 During the 2020 working-from-home period [Tim Macuga](https://acems.org.au/our-people/tim-macuga) from ACEMS and I interviewed [Prof Gael Martin](http://users.monash.edu.au/~gmartin/) from Monash University via zoom and made a podcast. This is available at https://acems.org.au/podcast/episode-32-bayes-theorem. 
 
 Gael gave a brief history of the Bayes Theorem and explained how it became so powerful a tool in today's computational world. She gave examples and explained some theoretical stuff too. Pretty cool! 
+
+
+In this episode she also explains the differences between Bayesian and Frequentist paradigms and discusses how Bayesian computation developed over the years. 
