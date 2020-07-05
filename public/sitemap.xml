@@ -48,16 +48,6 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-06-20T19:33:27+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2020-06-20-two-more-podcasts-with-rob-hyndman-and-gael-martin/</loc>
-    <lastmod>2020-06-20T19:33:27+10:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication_types/4/</loc>
     <lastmod>2020-05-05T00:00:00+00:00</lastmod>
   </url>
@@ -84,6 +74,11 @@
   
   <url>
     <loc>/post/2020-04-30-patricia-s-podcast/</loc>
+    <lastmod>2020-04-30T21:54:21+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
     <lastmod>2020-04-30T21:54:21+10:00</lastmod>
   </url>
   
