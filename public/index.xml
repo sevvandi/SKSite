@@ -5,12 +5,28 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Sevvandi Kandanaarachchi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 19 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 09 Aug 2020 16:10:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Sevvandi Kandanaarachchi</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Bushfire Alert! Branches on Powerlines</title>
+      <link>/talk/bernoulli-ims_one_world_symposium_2020/</link>
+      <pubDate>Sun, 09 Aug 2020 16:10:00 +0000</pubDate>
+      <guid>/talk/bernoulli-ims_one_world_symposium_2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dimension reduction for outlier detection using DOBIN </title>
+      <link>/publication/2019-01-01_dimension_reduction_/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/2019-01-01_dimension_reduction_/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Anomaly detection dilemmas</title>
@@ -332,14 +348,6 @@ ggplot(df, aes(Index, Streamflow)) + geom_point() + geom_line()&lt;/code&gt;&lt;
       <link>/publication/2019-01-01_anomaly_detection_in/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/publication/2019-01-01_anomaly_detection_in/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dimension reduction for outlier detection using DOBIN </title>
-      <link>/preprint/2019-01-01_dimension_reduction_/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/preprint/2019-01-01_dimension_reduction_/</guid>
       <description></description>
     </item>
     

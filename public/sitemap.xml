@@ -3,6 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/talk/bernoulli-ims_one_world_symposium_2020/</loc>
+    <lastmod>2020-08-09T16:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+    <lastmod>2020-08-09T16:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-08-09T16:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/2019-01-01_dimension_reduction_/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/rob-j-hyndman/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/sevvandi-kandanaarachchi/</loc>
+    <lastmod>2020-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/anomaly-detection/</loc>
     <lastmod>2020-07-19T17:32:42+10:00</lastmod>
   </url>
@@ -23,23 +73,8 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-07-19T17:32:42+10:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/</loc>
     <lastmod>2020-07-19T17:32:42+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2020-07-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2020-07-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -49,26 +84,6 @@
   
   <url>
     <loc>/authors/kate-smith-miles/</loc>
-    <lastmod>2020-07-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2020-07-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2020-07-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/rob-j-hyndman/</loc>
-    <lastmod>2020-07-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/sevvandi-kandanaarachchi/</loc>
     <lastmod>2020-07-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -173,11 +188,6 @@
   </url>
   
   <url>
-    <loc>/talk/</loc>
-    <lastmod>2019-11-28T15:30:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/software/eventstream/</loc>
     <lastmod>2019-11-24T00:00:00+00:00</lastmod>
   </url>
@@ -229,11 +239,6 @@
   
   <url>
     <loc>/authors/catherine-neelamraju/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/preprint/2019-01-01_dimension_reduction_/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
