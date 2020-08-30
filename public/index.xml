@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Sevvandi Kandanaarachchi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 29 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 28 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Sevvandi Kandanaarachchi</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Which nonlinear dimension reduction methods can detect outliers inside a sphere?</title>
       <link>/post/2020-08-29-nonlinear-dimension-reduction-and-outlier-detection/</link>
-      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
       <guid>/post/2020-08-29-nonlinear-dimension-reduction-and-outlier-detection/</guid>
       <description>
 &lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
@@ -41,21 +41,21 @@ colnames(oo) &amp;lt;- colnames(df)
 df &amp;lt;- rbind.data.frame(df, oo)
 plot(df[ ,c(1,2)], pch=20)
 points(df[3146:3147, ], pch=20, col=c(&amp;quot;red&amp;quot;, &amp;quot;green&amp;quot;), cex=2)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-30-nonlinear-dimension-reduction-and-outlier-detection/index_files/figure-html/dataset-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-08-29-nonlinear-dimension-reduction-and-outlier-detection/index_files/figure-html/dataset-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;dd2 &amp;lt;- dimRedData(df)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The dataframe contains 3145 points on the surface of the sphere. These points are non-outliers. The data points in the dataframe on rows 3146 and 3147 are the outliers. We plot the outliers in red and green.&lt;/p&gt;
 &lt;p&gt;Most methods need a parameter such as &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt; in KNN distances. For all methods we fix &lt;span class=&#34;math inline&#34;&gt;\(k=10\)&lt;/span&gt; and map the original data from &lt;span class=&#34;math inline&#34;&gt;\(\mathbb{R}^3\)&lt;/span&gt; to &lt;span class=&#34;math inline&#34;&gt;\(\mathbb{R}^2\)&lt;/span&gt;. It is also called a 2-dimensional embedding. Let’s start our analysis with IsoMap.&lt;/p&gt;
 &lt;div id=&#34;isomap&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;IsoMap&lt;/h2&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;emb2 &amp;lt;- embed(dd2, &amp;quot;Isomap&amp;quot;, .mute = NULL, knn = 10)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 2020-08-30 20:39:23: Isomap START&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 2020-08-30 20:39:23: constructing knn graph&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 2020-08-30 20:39:23: calculating geodesic distances&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 2020-08-30 20:39:28: Classical Scaling&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:28:49: Isomap START&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:28:49: constructing knn graph&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:28:49: calculating geodesic distances&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:28:53: Classical Scaling&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;embdat &amp;lt;- as.data.frame(emb2@data)
 plot(embdat, pch=20,main=&amp;quot;IsoMap embedding&amp;quot;)
 points(embdat[3146:3147, ],  pch=20, col=c(&amp;quot;red&amp;quot;, &amp;quot;green&amp;quot;), cex=2)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-30-nonlinear-dimension-reduction-and-outlier-detection/index_files/figure-html/isomap-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-08-29-nonlinear-dimension-reduction-and-outlier-detection/index_files/figure-html/isomap-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Well, &lt;span class=&#34;math inline&#34;&gt;\(k=10\)&lt;/span&gt;, did not bring out the outliers inside the sphere using IsoMap. Next, let’s look at Locally Linear Embedding (LLE).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;lle&#34; class=&#34;section level2&#34;&gt;
@@ -67,20 +67,20 @@ points(embdat[3146:3147, ],  pch=20, col=c(&amp;quot;red&amp;quot;, &amp;quot;gr
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;embdat &amp;lt;- as.data.frame(emb2@data)
 plot(embdat, pch=20, main=&amp;quot;LLE embedding&amp;quot;)
 points(embdat[3146:3147, ], pch=20, col=c(&amp;quot;red&amp;quot;, &amp;quot;green&amp;quot;), cex=2)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-30-nonlinear-dimension-reduction-and-outlier-detection/index_files/figure-html/LLEfun-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-08-29-nonlinear-dimension-reduction-and-outlier-detection/index_files/figure-html/LLEfun-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Next we look at Laplacian Eigenmaps.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;laplacian-eigenmaps&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Laplacian Eigenmaps&lt;/h2&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;emb2 &amp;lt;- embed(dd2, &amp;quot;LaplacianEigenmaps&amp;quot;, knn = 10)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 2020-08-30 20:42:38: Creating weight matrix&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 2020-08-30 20:42:39: Eigenvalue decomposition&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:30:54: Creating weight matrix&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:30:54: Eigenvalue decomposition&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Eigenvalues: 5.098969e-03 3.829450e-03 4.537894e-17&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 2020-08-30 20:42:39: DONE&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:30:54: DONE&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;embdat &amp;lt;- as.data.frame(emb2@data)
 plot(embdat, pch=20, main=&amp;quot;Lapacian eigenmaps embedding&amp;quot;)
 points(embdat[3146:3147, ], pch=20, col=c(&amp;quot;red&amp;quot;, &amp;quot;green&amp;quot;), cex=2)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-30-nonlinear-dimension-reduction-and-outlier-detection/index_files/figure-html/laplace-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-08-29-nonlinear-dimension-reduction-and-outlier-detection/index_files/figure-html/laplace-1.png&#34; width=&#34;672&#34; /&gt;
 This is nice. Laplacian eigenmaps really brought out the outliers using &lt;span class=&#34;math inline&#34;&gt;\(k=10\)&lt;/span&gt;. Next we look at diffusion maps.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;diffusion-maps&#34; class=&#34;section level2&#34;&gt;
@@ -88,11 +88,11 @@ This is nice. Laplacian eigenmaps really brought out the outliers using &lt;span
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;emb2 &amp;lt;- embed(dd2, &amp;quot;DiffusionMaps&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Performing eigendecomposition
 ## Computing Diffusion Coordinates
-## Elapsed time: 47.7 seconds&lt;/code&gt;&lt;/pre&gt;
+## Elapsed time: 3.95 seconds&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;embdat &amp;lt;- as.data.frame(emb2@data)
 plot(embdat, pch=20, main=&amp;quot;Diffusion maps embedding&amp;quot;)
 points(embdat[3146:3147, ],  pch=20, col=c(&amp;quot;red&amp;quot;, &amp;quot;green&amp;quot;), cex=2)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-30-nonlinear-dimension-reduction-and-outlier-detection/index_files/figure-html/diffusion-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-08-29-nonlinear-dimension-reduction-and-outlier-detection/index_files/figure-html/diffusion-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Diffusion maps also brought out the outliers. Interestingly, everything else is mapped to a line. Next we consider non-metric dimensional scaling.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;non-metric-dimensional-scaling&#34; class=&#34;section level2&#34;&gt;
@@ -102,7 +102,7 @@ points(embdat[3146:3147, ],  pch=20, col=c(&amp;quot;red&amp;quot;, &amp;quot;gr
 embdat &amp;lt;- as.data.frame(emb2@data)
 plot(embdat, pch=20, main=&amp;quot;non-MDS embedding&amp;quot;)
 points(embdat[3146:3147, ], pch=20, col=c(&amp;quot;red&amp;quot;, &amp;quot;green&amp;quot;), cex=2)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-30-nonlinear-dimension-reduction-and-outlier-detection/index_files/figure-html/nonmetric-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-08-29-nonlinear-dimension-reduction-and-outlier-detection/index_files/figure-html/nonmetric-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Finally we do tsne.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;tsne&#34; class=&#34;section level2&#34;&gt;
@@ -112,7 +112,7 @@ points(embdat[3146:3147, ], pch=20, col=c(&amp;quot;red&amp;quot;, &amp;quot;gre
 embdat &amp;lt;- as.data.frame(emb2@data)
 plot(embdat, pch=20, main=&amp;quot;tsne embedding&amp;quot;)
 points(embdat[3146:3147, ], pch=20, col=c(&amp;quot;red&amp;quot;, &amp;quot;green&amp;quot;), cex=2)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2020-08-30-nonlinear-dimension-reduction-and-outlier-detection/index_files/figure-html/tsne-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-08-29-nonlinear-dimension-reduction-and-outlier-detection/index_files/figure-html/tsne-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Of the methods explored, Laplacian eigenmaps brought out the outliers while showing some spherical structure in the embedding. Diffusion maps also brought out the outliers. However, the spherical structure of the data was lost in the embedding.&lt;/p&gt;
 &lt;/div&gt;
 </description>
