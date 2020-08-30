@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/</loc>
+    <lastmod>2020-08-29T12:20:36+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-08-29T12:20:36+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020-08-30-nonlinear-dimension-reduction-and-outlier-detection/</loc>
+    <lastmod>2020-08-29T12:20:36+10:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/talk/bernoulli-ims_one_world_symposium_2020/</loc>
     <lastmod>2020-08-09T16:10:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/talk/</loc>
-    <lastmod>2020-08-09T16:10:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2020-08-09T16:10:00+00:00</lastmod>
   </url>
   
@@ -64,11 +74,6 @@
   
   <url>
     <loc>/tags/outlier-detection/</loc>
-    <lastmod>2020-07-19T17:32:42+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
     <lastmod>2020-07-19T17:32:42+10:00</lastmod>
   </url>
   
