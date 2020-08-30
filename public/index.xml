@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Which nonlinear dimension reduction methods can detect outliers inside a sphere?</title>
+      <title>Which nonlinear dimension reduction methods preserve outliers inside a sphere?</title>
       <link>/post/2020-08-29-nonlinear-dimension-reduction-and-outlier-detection/</link>
       <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
       <guid>/post/2020-08-29-nonlinear-dimension-reduction-and-outlier-detection/</guid>
@@ -21,7 +21,7 @@
 &lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;p&gt;In this post we will look at how well nonlinear dimension reduction techniques detect outliers that are placed inside a sphere, when all the other data points are on the surface of the sphere. We will use the R package &lt;strong&gt;dimRed&lt;/strong&gt; for this analysis. First we note that linear project-based methods on the original data will not work, because projections will hide the outliers inside the sphere. Also, none of the nonlinear dimension reduction methods we consider are especially designed for outlier detection. So, it is not a limitation of the method if they do not detect outliers. But, we want to see if any of them do.&lt;/p&gt;
+&lt;p&gt;In this post we will look at how well nonlinear dimension reduction techniques preserve outliers that are placed inside a sphere, when all the other data points are on the surface of the sphere. We will use the R package &lt;strong&gt;dimRed&lt;/strong&gt; for this analysis. First we note that linear projection-based methods on the original data will not work, because projections will hide the outliers inside the sphere. Also, none of the nonlinear dimension reduction methods we consider are especially designed for outlier detection. So, it is not a limitation of the method if they do not preserve outliers. But, we want to see if any of them do.&lt;/p&gt;
 &lt;p&gt;Let’s plot the data first.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;set.seed(1)
 theta &amp;lt;- seq(from = -1*pi, to = pi, by=0.01)
@@ -48,10 +48,10 @@ points(df[3146:3147, ], pch=20, col=c(&amp;quot;red&amp;quot;, &amp;quot;green&a
 &lt;div id=&#34;isomap&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;IsoMap&lt;/h2&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;emb2 &amp;lt;- embed(dd2, &amp;quot;Isomap&amp;quot;, .mute = NULL, knn = 10)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:58:25: Isomap START&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:58:25: constructing knn graph&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:58:25: calculating geodesic distances&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:58:30: Classical Scaling&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 2020-08-30 23:17:23: Isomap START&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 2020-08-30 23:17:23: constructing knn graph&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 2020-08-30 23:17:23: calculating geodesic distances&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 2020-08-30 23:17:27: Classical Scaling&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;embdat &amp;lt;- as.data.frame(emb2@data)
 plot(embdat, pch=20,main=&amp;quot;IsoMap embedding&amp;quot;)
 points(embdat[3146:3147, ],  pch=20, col=c(&amp;quot;red&amp;quot;, &amp;quot;green&amp;quot;), cex=2)&lt;/code&gt;&lt;/pre&gt;
@@ -88,7 +88,7 @@ This is nice. Laplacian eigenmaps really brought out the outliers using &lt;span
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;emb2 &amp;lt;- embed(dd2, &amp;quot;DiffusionMaps&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Performing eigendecomposition
 ## Computing Diffusion Coordinates
-## Elapsed time: 6.04 seconds&lt;/code&gt;&lt;/pre&gt;
+## Elapsed time: 4.67 seconds&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;embdat &amp;lt;- as.data.frame(emb2@data)
 plot(embdat, pch=20, main=&amp;quot;Diffusion maps embedding&amp;quot;)
 points(embdat[3146:3147, ],  pch=20, col=c(&amp;quot;red&amp;quot;, &amp;quot;green&amp;quot;), cex=2)&lt;/code&gt;&lt;/pre&gt;

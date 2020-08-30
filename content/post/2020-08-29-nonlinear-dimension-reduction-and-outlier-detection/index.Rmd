@@ -1,5 +1,5 @@
 ---
-title: Which nonlinear dimension reduction methods can detect outliers inside a sphere?
+title: Which nonlinear dimension reduction methods preserve outliers inside a sphere?
 author: Sevvandi Kandanaarachchi
 date: '2020-08-29'
 slug: []
@@ -16,7 +16,7 @@ image:
   preview_only: no
 projects: []
 ---
-In this post we will look at how well nonlinear dimension reduction techniques detect outliers that are placed inside a sphere, when all the other data points are on the surface of the sphere. We will use the R package **dimRed** for this analysis. First we note that linear project-based methods on the original data will not work, because projections will hide the outliers inside the sphere. Also, none of the nonlinear dimension reduction methods we consider are especially designed for outlier detection. So, it is not a limitation of the method if they do not detect outliers. But, we want to see if any of them do. 
+In this post we will look at how well nonlinear dimension reduction techniques preserve outliers that are placed inside a sphere, when all the other data points are on the surface of the sphere. We will use the R package **dimRed** for this analysis. First we note that linear projection-based methods on the original data will not work, because projections will hide the outliers inside the sphere. Also, none of the nonlinear dimension reduction methods we consider are especially designed for outlier detection. So, it is not a limitation of the method if they do not preserve outliers. But, we want to see if any of them do. 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, cache=TRUE)

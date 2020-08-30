@@ -1,5 +1,5 @@
 ---
-title: Which nonlinear dimension reduction methods can detect outliers inside a sphere?
+title: Which nonlinear dimension reduction methods preserve outliers inside a sphere?
 author: Sevvandi Kandanaarachchi
 date: '2020-08-29'
 slug: []
@@ -20,7 +20,7 @@ projects: []
 <script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
 
 
-<p>In this post we will look at how well nonlinear dimension reduction techniques detect outliers that are placed inside a sphere, when all the other data points are on the surface of the sphere. We will use the R package <strong>dimRed</strong> for this analysis. First we note that linear project-based methods on the original data will not work, because projections will hide the outliers inside the sphere. Also, none of the nonlinear dimension reduction methods we consider are especially designed for outlier detection. So, it is not a limitation of the method if they do not detect outliers. But, we want to see if any of them do.</p>
+<p>In this post we will look at how well nonlinear dimension reduction techniques preserve outliers that are placed inside a sphere, when all the other data points are on the surface of the sphere. We will use the R package <strong>dimRed</strong> for this analysis. First we note that linear projection-based methods on the original data will not work, because projections will hide the outliers inside the sphere. Also, none of the nonlinear dimension reduction methods we consider are especially designed for outlier detection. So, it is not a limitation of the method if they do not preserve outliers. But, we want to see if any of them do.</p>
 <p>Let’s plot the data first.</p>
 <pre class="r"><code>set.seed(1)
 theta &lt;- seq(from = -1*pi, to = pi, by=0.01)
@@ -47,10 +47,10 @@ points(df[3146:3147, ], pch=20, col=c(&quot;red&quot;, &quot;green&quot;), cex=2
 <div id="isomap" class="section level2">
 <h2>IsoMap</h2>
 <pre class="r"><code>emb2 &lt;- embed(dd2, &quot;Isomap&quot;, .mute = NULL, knn = 10)</code></pre>
-<pre><code>## 2020-08-30 22:58:25: Isomap START</code></pre>
-<pre><code>## 2020-08-30 22:58:25: constructing knn graph</code></pre>
-<pre><code>## 2020-08-30 22:58:25: calculating geodesic distances</code></pre>
-<pre><code>## 2020-08-30 22:58:30: Classical Scaling</code></pre>
+<pre><code>## 2020-08-30 23:17:23: Isomap START</code></pre>
+<pre><code>## 2020-08-30 23:17:23: constructing knn graph</code></pre>
+<pre><code>## 2020-08-30 23:17:23: calculating geodesic distances</code></pre>
+<pre><code>## 2020-08-30 23:17:27: Classical Scaling</code></pre>
 <pre class="r"><code>embdat &lt;- as.data.frame(emb2@data)
 plot(embdat, pch=20,main=&quot;IsoMap embedding&quot;)
 points(embdat[3146:3147, ],  pch=20, col=c(&quot;red&quot;, &quot;green&quot;), cex=2)</code></pre>
@@ -87,7 +87,7 @@ This is nice. Laplacian eigenmaps really brought out the outliers using <span cl
 <pre class="r"><code>emb2 &lt;- embed(dd2, &quot;DiffusionMaps&quot;)</code></pre>
 <pre><code>## Performing eigendecomposition
 ## Computing Diffusion Coordinates
-## Elapsed time: 6.04 seconds</code></pre>
+## Elapsed time: 4.67 seconds</code></pre>
 <pre class="r"><code>embdat &lt;- as.data.frame(emb2@data)
 plot(embdat, pch=20, main=&quot;Diffusion maps embedding&quot;)
 points(embdat[3146:3147, ],  pch=20, col=c(&quot;red&quot;, &quot;green&quot;), cex=2)</code></pre>
