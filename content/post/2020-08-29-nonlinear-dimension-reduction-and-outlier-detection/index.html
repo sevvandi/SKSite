@@ -1,14 +1,14 @@
 ---
 title: Which nonlinear dimension reduction methods can detect outliers inside a sphere?
 author: Sevvandi Kandanaarachchi
-date: '2020-08-28'
+date: '2020-08-29'
 slug: []
 categories: []
 tags: []
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2020-08-28T12:20:36+10:00'
+lastmod: '2020-08-29T12:20:36+10:00'
 featured: no
 image:
   caption: ''
@@ -47,10 +47,10 @@ points(df[3146:3147, ], pch=20, col=c(&quot;red&quot;, &quot;green&quot;), cex=2
 <div id="isomap" class="section level2">
 <h2>IsoMap</h2>
 <pre class="r"><code>emb2 &lt;- embed(dd2, &quot;Isomap&quot;, .mute = NULL, knn = 10)</code></pre>
-<pre><code>## 2020-08-30 22:28:49: Isomap START</code></pre>
-<pre><code>## 2020-08-30 22:28:49: constructing knn graph</code></pre>
-<pre><code>## 2020-08-30 22:28:49: calculating geodesic distances</code></pre>
-<pre><code>## 2020-08-30 22:28:53: Classical Scaling</code></pre>
+<pre><code>## 2020-08-30 22:58:25: Isomap START</code></pre>
+<pre><code>## 2020-08-30 22:58:25: constructing knn graph</code></pre>
+<pre><code>## 2020-08-30 22:58:25: calculating geodesic distances</code></pre>
+<pre><code>## 2020-08-30 22:58:30: Classical Scaling</code></pre>
 <pre class="r"><code>embdat &lt;- as.data.frame(emb2@data)
 plot(embdat, pch=20,main=&quot;IsoMap embedding&quot;)
 points(embdat[3146:3147, ],  pch=20, col=c(&quot;red&quot;, &quot;green&quot;), cex=2)</code></pre>
@@ -72,10 +72,10 @@ points(embdat[3146:3147, ], pch=20, col=c(&quot;red&quot;, &quot;green&quot;), c
 <div id="laplacian-eigenmaps" class="section level2">
 <h2>Laplacian Eigenmaps</h2>
 <pre class="r"><code>emb2 &lt;- embed(dd2, &quot;LaplacianEigenmaps&quot;, knn = 10)</code></pre>
-<pre><code>## 2020-08-30 22:30:54: Creating weight matrix</code></pre>
-<pre><code>## 2020-08-30 22:30:54: Eigenvalue decomposition</code></pre>
+<pre><code>## 2020-08-30 23:00:51: Creating weight matrix</code></pre>
+<pre><code>## 2020-08-30 23:00:52: Eigenvalue decomposition</code></pre>
 <pre><code>## Eigenvalues: 5.098969e-03 3.829450e-03 4.537894e-17</code></pre>
-<pre><code>## 2020-08-30 22:30:54: DONE</code></pre>
+<pre><code>## 2020-08-30 23:00:53: DONE</code></pre>
 <pre class="r"><code>embdat &lt;- as.data.frame(emb2@data)
 plot(embdat, pch=20, main=&quot;Lapacian eigenmaps embedding&quot;)
 points(embdat[3146:3147, ], pch=20, col=c(&quot;red&quot;, &quot;green&quot;), cex=2)</code></pre>
@@ -87,7 +87,7 @@ This is nice. Laplacian eigenmaps really brought out the outliers using <span cl
 <pre class="r"><code>emb2 &lt;- embed(dd2, &quot;DiffusionMaps&quot;)</code></pre>
 <pre><code>## Performing eigendecomposition
 ## Computing Diffusion Coordinates
-## Elapsed time: 3.95 seconds</code></pre>
+## Elapsed time: 6.04 seconds</code></pre>
 <pre class="r"><code>embdat &lt;- as.data.frame(emb2@data)
 plot(embdat, pch=20, main=&quot;Diffusion maps embedding&quot;)
 points(embdat[3146:3147, ],  pch=20, col=c(&quot;red&quot;, &quot;green&quot;), cex=2)</code></pre>

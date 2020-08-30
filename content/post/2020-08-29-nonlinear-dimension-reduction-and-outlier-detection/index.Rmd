@@ -1,14 +1,14 @@
 ---
 title: Which nonlinear dimension reduction methods can detect outliers inside a sphere?
 author: Sevvandi Kandanaarachchi
-date: '2020-08-28'
+date: '2020-08-29'
 slug: []
 categories: []
 tags: []
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2020-08-28T12:20:36+10:00'
+lastmod: '2020-08-29T12:20:36+10:00'
 featured: no
 image:
   caption: ''

@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Sevvandi Kandanaarachchi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 28 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 29 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Sevvandi Kandanaarachchi</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Which nonlinear dimension reduction methods can detect outliers inside a sphere?</title>
       <link>/post/2020-08-29-nonlinear-dimension-reduction-and-outlier-detection/</link>
-      <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
       <guid>/post/2020-08-29-nonlinear-dimension-reduction-and-outlier-detection/</guid>
       <description>
 &lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
@@ -48,10 +48,10 @@ points(df[3146:3147, ], pch=20, col=c(&amp;quot;red&amp;quot;, &amp;quot;green&a
 &lt;div id=&#34;isomap&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;IsoMap&lt;/h2&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;emb2 &amp;lt;- embed(dd2, &amp;quot;Isomap&amp;quot;, .mute = NULL, knn = 10)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:28:49: Isomap START&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:28:49: constructing knn graph&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:28:49: calculating geodesic distances&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:28:53: Classical Scaling&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:58:25: Isomap START&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:58:25: constructing knn graph&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:58:25: calculating geodesic distances&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:58:30: Classical Scaling&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;embdat &amp;lt;- as.data.frame(emb2@data)
 plot(embdat, pch=20,main=&amp;quot;IsoMap embedding&amp;quot;)
 points(embdat[3146:3147, ],  pch=20, col=c(&amp;quot;red&amp;quot;, &amp;quot;green&amp;quot;), cex=2)&lt;/code&gt;&lt;/pre&gt;
@@ -73,10 +73,10 @@ points(embdat[3146:3147, ], pch=20, col=c(&amp;quot;red&amp;quot;, &amp;quot;gre
 &lt;div id=&#34;laplacian-eigenmaps&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Laplacian Eigenmaps&lt;/h2&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;emb2 &amp;lt;- embed(dd2, &amp;quot;LaplacianEigenmaps&amp;quot;, knn = 10)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:30:54: Creating weight matrix&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:30:54: Eigenvalue decomposition&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 2020-08-30 23:00:51: Creating weight matrix&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 2020-08-30 23:00:52: Eigenvalue decomposition&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Eigenvalues: 5.098969e-03 3.829450e-03 4.537894e-17&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 2020-08-30 22:30:54: DONE&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 2020-08-30 23:00:53: DONE&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;embdat &amp;lt;- as.data.frame(emb2@data)
 plot(embdat, pch=20, main=&amp;quot;Lapacian eigenmaps embedding&amp;quot;)
 points(embdat[3146:3147, ], pch=20, col=c(&amp;quot;red&amp;quot;, &amp;quot;green&amp;quot;), cex=2)&lt;/code&gt;&lt;/pre&gt;
@@ -88,7 +88,7 @@ This is nice. Laplacian eigenmaps really brought out the outliers using &lt;span
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;emb2 &amp;lt;- embed(dd2, &amp;quot;DiffusionMaps&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## Performing eigendecomposition
 ## Computing Diffusion Coordinates
-## Elapsed time: 3.95 seconds&lt;/code&gt;&lt;/pre&gt;
+## Elapsed time: 6.04 seconds&lt;/code&gt;&lt;/pre&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;embdat &amp;lt;- as.data.frame(emb2@data)
 plot(embdat, pch=20, main=&amp;quot;Diffusion maps embedding&amp;quot;)
 points(embdat[3146:3147, ],  pch=20, col=c(&amp;quot;red&amp;quot;, &amp;quot;green&amp;quot;), cex=2)&lt;/code&gt;&lt;/pre&gt;
