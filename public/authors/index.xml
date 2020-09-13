@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 03 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,18 +13,42 @@
     </image>
     
     <item>
-      <title>Rob J Hyndman</title>
-      <link>/authors/rob-j-hyndman/</link>
-      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/rob-j-hyndman/</guid>
+      <title>Patricia Menendez</title>
+      <link>/authors/patricia-menendez/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/patricia-menendez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruben Loaiza-Maya</title>
+      <link>/authors/ruben-loaiza-maya/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/ruben-loaiza-maya/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sevvandi Kandanaarachchi</title>
       <link>/authors/sevvandi-kandanaarachchi/</link>
-      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       <guid>/authors/sevvandi-kandanaarachchi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ursula Laa</title>
+      <link>/authors/ursula-laa/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/ursula-laa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rob J Hyndman</title>
+      <link>/authors/rob-j-hyndman/</link>
+      <pubDate>Mon, 03 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/rob-j-hyndman/</guid>
       <description></description>
     </item>
     

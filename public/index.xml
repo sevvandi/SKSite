@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Sevvandi Kandanaarachchi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 29 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Sevvandi Kandanaarachchi</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Outliers in Compositional Time Series Data</title>
+      <link>/preprint/2020-09-09_outliers_in_composit/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/preprint/2020-09-09_outliers_in_composit/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Which nonlinear dimension reduction methods preserve outliers inside a sphere?</title>
