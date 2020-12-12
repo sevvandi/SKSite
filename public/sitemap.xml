@@ -13,7 +13,17 @@
   </url>
   
   <url>
+    <loc>/tags/software/</loc>
+    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/software/</loc>
+    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <lastmod>2020-12-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,11 +128,6 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-07-19T17:32:42+10:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/publication/2019-07-14_early_classification/</loc>
     <lastmod>2020-07-14T00:00:00+00:00</lastmod>
   </url>
@@ -194,11 +199,6 @@
   
   <url>
     <loc>/software/airt/</loc>
-    <lastmod>2020-01-05T21:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/software/</loc>
     <lastmod>2020-01-05T21:00:00+00:00</lastmod>
   </url>
   
