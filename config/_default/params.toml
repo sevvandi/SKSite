@@ -108,10 +108,10 @@ coordinates = {latitude = "-37.807826", longitude = "144.964806"}
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
   {icon = "envelope", icon_pack = "fas", name = "sevvandi.kandanaarachchi@rmit.edu.au", link = "mailto:sevvandi.kandanaarachchi@rmit.edu.au"},
-  {icon = "google-scholar", icon_pack = "ai", name = "Google Scholar", link = "https://scholar.google.com.au/citations?user=oA9YsjkAAAAJ&hl=en"},
-  {icon = "github", icon_pack = "fab", name = "sevvandi on GitHub", link = "https://github.com/sevvandi"},
+  {icon = "google-scholar", icon_pack = "ai", name = "Google Scholar", link = "https://scholar.google.com/citations?user=XIC1yhMAAAAJ&hl=en"},
+  {icon = "github", icon_pack = "fab", name = "Sevvandi on GitHub", link = "https://github.com/sevvandi"},
   {icon = "twitter", icon_pack = "fab", name = "@Sevvandik", link = "https://twitter.com/Sevvandik"},
-#  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
+  {icon = "youtube", icon_pack = "fab", name = "Sevvandi's YouTube channel", link = "https://www.youtube.com/channel/UChMkjxDrpi5UeEoLC6ctyBg"},
  # {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
