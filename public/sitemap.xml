@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/software/composits/</loc>
+    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/software/</loc>
+    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication_types/4/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url>
@@ -34,11 +49,6 @@
   
   <url>
     <loc>/authors/ruben-loaiza-maya/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -189,11 +199,6 @@
   
   <url>
     <loc>/tags/software/</loc>
-    <lastmod>2020-01-05T21:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/software/</loc>
     <lastmod>2020-01-05T21:00:00+00:00</lastmod>
   </url>
   

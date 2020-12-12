@@ -1,5 +1,5 @@
 +++
-title = "Evaluating algorithms using Item Response Theory"
+title = "Comprehensive Algorithm Portfolio Evaluation using Item Response Theory"
 date = "2020-05-05"
 authors = ["Sevvandi Kandanaarachchi", "Kate Smith-Miles"]
 publication_types = ["4"]
