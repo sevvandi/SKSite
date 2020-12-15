@@ -1,0 +1,24 @@
+---
+title: Galit Shmueli's podcast on tech giants hacking our brains
+author: Sevvandi Kandanaarachchi
+date: '2020-10-14'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-10-14T21:54:21+10:00'
+featured: no
+image:
+  caption: 'Image credit: Tim Macuga'
+  focal_point: ''
+  preview_only: yes
+projects: []
+---
+![](/img/Galits_podcast.jpg)
+[Tim Macuga](https://acems.org.au/our-people/tim-macuga) from ACEMS and I talked to [Prof Galit Shmueli](https://www.galitshmueli.com/) from National Tsing Hua University, Taiwan via zoom and made a podcast. This is available at https://acems.org.au/podcast/episode-34-galit-shmueli. 
+
+Galit talked about different aspects of statistics and how it is used. She talked about different viewpoints, for example in social sciences and STEM fields. 
+
+Galit also talked about the possibility of big tech giants influencing us in ways that we do not think. By using their systems, they have the power to motivate us to do what they want us to do. Whether they do it or not is a different issue. 

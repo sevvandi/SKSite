@@ -3,12 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/software/composits/</loc>
-    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
+    <loc>/podcasts/2020-12-16-asha-sophies-podcast/</loc>
+    <lastmod>2020-12-15T08:00:08+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/podcasts/</loc>
+    <lastmod>2020-12-15T08:00:08+08:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-12-15T08:00:08+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/austms_2020/</loc>
+    <lastmod>2020-12-11T15:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+    <lastmod>2020-12-11T15:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/software/composits/</loc>
     <lastmod>2020-12-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -25,6 +45,11 @@
   <url>
     <loc>/tags/</loc>
     <lastmod>2020-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/podcasts/2020-10-14-galits-podcast/</loc>
+    <lastmod>2020-10-14T21:54:21+10:00</lastmod>
   </url>
   
   <url>
@@ -84,11 +109,6 @@
   
   <url>
     <loc>/talk/bernoulli-ims_one_world_symposium_2020/</loc>
-    <lastmod>2020-08-09T16:10:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
     <lastmod>2020-08-09T16:10:00+00:00</lastmod>
   </url>
   
@@ -159,11 +179,6 @@
   
   <url>
     <loc>/podcasts/2020-06-30-gaels-podcast/</loc>
-    <lastmod>2020-06-30T21:54:21+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/podcasts/</loc>
     <lastmod>2020-06-30T21:54:21+10:00</lastmod>
   </url>
   

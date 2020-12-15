@@ -5,12 +5,20 @@
     <link>/talk/</link>
       <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 09 Aug 2020 16:10:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 11 Dec 2020 15:30:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>/talk/</link>
     </image>
+    
+    <item>
+      <title>Algorithm Evaluation using Item Response Theory</title>
+      <link>/talk/austms_2020/</link>
+      <pubDate>Fri, 11 Dec 2020 15:30:00 +0000</pubDate>
+      <guid>/talk/austms_2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bushfire Alert! Branches on Powerlines</title>

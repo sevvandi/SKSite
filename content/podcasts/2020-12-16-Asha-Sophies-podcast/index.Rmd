@@ -1,0 +1,24 @@
+---
+title: Asha Rao's and Sophie Calabretto's podcast on Mathematics Education
+author: Sevvandi Kandanaarachchi
+date: '2020-12-15'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-12-15T08:00:08+08:00'
+featured: no
+image:
+  caption: 'Image credit: Tim Macuga'
+  focal_point: ''
+  preview_only: yes
+projects: []
+---
+![](/img/Asha_and_Sophies_podcast.jpg)
+In this podcast I interviewed [Prof Asha Rao](https://www.rmit.edu.au/contact/staff-contacts/academic-staff/r/rao-professor-asha) from RMIT University and [Dr Sophie Calabretto](https://sophiecalabretto.github.io/) from Macquarie University on Mathematics Education. This is an ACEMS Random Sample podcast and is available at https://acems.org.au/podcast/episode-43-maths-perseverance.
+
+
+It was a great chat on why maths is needed, how it can help us in our careers and how we can go about learning mathematics. Asha and Sophie gave different viewpoints cementing the importance of a good mathematics education. 
+

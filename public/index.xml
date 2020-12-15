@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Sevvandi Kandanaarachchi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Sevvandi Kandanaarachchi</title>
@@ -13,11 +13,50 @@
     </image>
     
     <item>
+      <title>Asha Rao&#39;s and Sophie Calabretto&#39;s podcast on Mathematics Education</title>
+      <link>/podcasts/2020-12-16-asha-sophies-podcast/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/podcasts/2020-12-16-asha-sophies-podcast/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;img src=&#34;/img/Asha_and_Sophies_podcast.jpg&#34; /&gt;
+In this podcast I interviewed &lt;a href=&#34;https://www.rmit.edu.au/contact/staff-contacts/academic-staff/r/rao-professor-asha&#34;&gt;Prof Asha Rao&lt;/a&gt; from RMIT University and &lt;a href=&#34;https://sophiecalabretto.github.io/&#34;&gt;Dr Sophie Calabretto&lt;/a&gt; from Macquarie University on Mathematics Education. This is an ACEMS Random Sample podcast and is available at &lt;a href=&#34;https://acems.org.au/podcast/episode-43-maths-perseverance&#34; class=&#34;uri&#34;&gt;https://acems.org.au/podcast/episode-43-maths-perseverance&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It was a great chat on why maths is needed, how it can help us in our careers and how we can go about learning mathematics. Asha and Sophie gave different viewpoints cementing the importance of a good mathematics education.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Algorithm Evaluation using Item Response Theory</title>
+      <link>/talk/austms_2020/</link>
+      <pubDate>Fri, 11 Dec 2020 15:30:00 +0000</pubDate>
+      <guid>/talk/austms_2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>composits</title>
       <link>/software/composits/</link>
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
       <guid>/software/composits/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Galit Shmueli&#39;s podcast on tech giants hacking our brains</title>
+      <link>/podcasts/2020-10-14-galits-podcast/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/podcasts/2020-10-14-galits-podcast/</guid>
+      <description>
+&lt;script src=&#34;/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;&lt;img src=&#34;/img/Galits_podcast.jpg&#34; /&gt;
+&lt;a href=&#34;https://acems.org.au/our-people/tim-macuga&#34;&gt;Tim Macuga&lt;/a&gt; from ACEMS and I talked to &lt;a href=&#34;https://www.galitshmueli.com/&#34;&gt;Prof Galit Shmueli&lt;/a&gt; from National Tsing Hua University, Taiwan via zoom and made a podcast. This is available at &lt;a href=&#34;https://acems.org.au/podcast/episode-34-galit-shmueli&#34; class=&#34;uri&#34;&gt;https://acems.org.au/podcast/episode-34-galit-shmueli&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Galit talked about different aspects of statistics and how it is used. She talked about different viewpoints, for example in social sciences and STEM fields.&lt;/p&gt;
+&lt;p&gt;Galit also talked about the possibility of big tech giants influencing us in ways that we do not think. By using their systems, they have the power to motivate us to do what they want us to do. Whether they do it or not is a different issue.&lt;/p&gt;
+</description>
     </item>
     
     <item>
