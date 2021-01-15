@@ -51,7 +51,7 @@ user_groups:
 - Visitors
 ---
 
-Hello! Thanks for visiting my site! :wave:  TESTING
+Hello! Thanks for visiting my site! :wave:  
 
 I am a mathematician working on  data science related topics such as anomaly detection, meta-learning and streaming data. I conduct research on theoretical and real-world problems. For example,  visualizing anomalies in high dimensions is a very tricky business.  How can we reduce dimensions in a way that anomalies are highlighted or brought to the forefront? (For details, see [dobin](https://sevvandi.github.io/dobin/index.html)).
 
