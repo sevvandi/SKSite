@@ -1,5 +1,5 @@
 ---
-title: Asha Rao's and Sophie Calabretto's podcast on Mathematics Education
+title: Asha Rao's and Sophie Calabretto's two-part podcast on Mathematics Education and Imposter Syndrome
 author: Sevvandi Kandanaarachchi
 date: '2020-12-15'
 slug: []
@@ -17,8 +17,11 @@ image:
 projects: []
 ---
 ![](/img/Asha_and_Sophies_podcast.jpg)
-In this podcast I interviewed [Prof Asha Rao](https://www.rmit.edu.au/contact/staff-contacts/academic-staff/r/rao-professor-asha) from RMIT University and [Dr Sophie Calabretto](https://sophiecalabretto.github.io/) from Macquarie University on Mathematics Education. This is an ACEMS Random Sample podcast and is available at https://acems.org.au/podcast/episode-43-maths-perseverance.
+In this two-part podcast I interviewed [Prof Asha Rao](https://www.rmit.edu.au/contact/staff-contacts/academic-staff/r/rao-professor-asha) from RMIT University and [Dr Sophie Calabretto](https://sophiecalabretto.github.io/) from Macquarie University on Mathematics Education and Women in Mathematics. This is an ACEMS Random Sample podcast and the first part is available at https://acems.org.au/podcast/episode-43-maths-perseverance.
 
 
 It was a great chat on why maths is needed, how it can help us in our careers and how we can go about learning mathematics. Asha and Sophie gave different viewpoints cementing the importance of a good mathematics education. 
+
+The second part is available at https://acems.org.au/podcast/episode-44-overcoming-imposter-syndrome.
+In this part we discussed the imposter syndrome and how it affects women. More importantly, we talked about how to increase female participation in mathematics. 
 
