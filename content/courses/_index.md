@@ -5,10 +5,11 @@ header:
 layout: docs
 title: 
 ---
-I currently teach MATH2200 - Introduction to Probability and Statistics -  at RMIT. 
+I currently teach(*) or have taught the following courses at RMIT University.
 
-## Supervision
-Currently, I am supervising Work Integrated Learning (WIL) projects at RMIT. Previously, I have conducted independent studies, which are similar to Honours projects in an Australian context. 
+1. MATH2201 - Basic Statistical Methodologies*
+2. MATH1275/1276 - Statistical Computing*
+3. MATH2200 - Introduction to Probability and Statistics
 
 
 ## Previous teaching experience

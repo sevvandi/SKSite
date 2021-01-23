@@ -18,12 +18,12 @@ education:
     year: 2002
 email: ""
 interests:
-- Data Science
 - Anomaly Detection
-- Streaming Data
 - Event detection
+- Streaming Data
 - Meta-learning
 - Dimension Reduction
+- Data Science
 name: Sevvandi Kandanaarachchi
 organizations:
 - name: RMIT University
@@ -53,10 +53,10 @@ user_groups:
 
 Hello! Thanks for visiting my site! :wave:  
 
-I am a mathematician working on  data science related topics such as anomaly detection, meta-learning and streaming data. I conduct research on theoretical and real-world problems. For example,  visualizing anomalies in high dimensions is a very tricky business.  How can we reduce dimensions in a way that anomalies are highlighted or brought to the forefront? (For details, see [dobin](https://sevvandi.github.io/dobin/index.html)).
+I use statistics, mathematics and machine learning to **find unusual patterns in data**. They are referred to by different names. They can be called anomalies, outliers or novelties.  Sometimes they are called events, especially if an unusual activity is happening over time. What are some examples? Well, intrusions (attacks) in computer networks are anomalies, which are sometimes called anomalous events. Credit card fraud is another example. Fraudulent credit card transactions are anomalies when we consider billions of legitimate transactions. Or a malfunctioning sensor can give out an unusual pattern indicating that the sensor needs replacing or that the batteries have run out. A sudden increase in atmospheric aerosols captured by sensors may indicate a bushfire. 
 
-I also like working on real world problems, especially ones that are motivated by industry. From 2016 to 2019, I worked with an industry partner on intrusion detection. I'm also interested in bushfire mitigation research. 
+Why is it important to find these unusual patterns? If we detect them quickly, we can act upon it. Yes, early detection is really important. Can we detect an intrusion while it is happening? In this case we only have partial information, which is a challenge.  Another challenge is that the data can be high dimensional making it difficult to find anomalies. These are some of the research challenges that I work on. I also like working on real world problems, especially ones that are motivated by industry. From 2016 to 2019, I worked with an industry partner on intrusion detection. 
 
-I came to statistical learning from a pure mathematics background.  My PhD was in mean curvature flow, which lies in the intersection of partial differential equations and differential geometry. I like to bring my geometric intuition to solve data science problems. 
+I am an applied mathematician. I came to statistical learning from a  mathematics background.  My PhD was in mean curvature flow, which has a lot of geometry and differential equations involved. I bring my geometric intuition to my current work. 
 
 More details can be found on my [CV](/img/CV.pdf).
