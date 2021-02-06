@@ -1,0 +1,160 @@
+---
+title: Testing an Outlier Detection Method
+author: Sevvandi Kandanaarachchi
+date: '2021-02-06'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-02-06T19:10:50+11:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+<script src="{{< blogdown/postref >}}index.en_files/header-attrs/header-attrs.js"></script>
+
+
+<p>Suppose you have developed an outlier detection method. What are the ways to test it? You can generate some random data and add a couple of outliers and see if your method gives high outlier scores to the outliers. Let’s try this out with a couple of well known outlier detection methods from the R package DDoutlier.</p>
+<pre class="r"><code>knitr::opts_chunk$set(echo = TRUE, cache=TRUE, message=FALSE)
+library(DDoutlier)
+library(pROC)</code></pre>
+<pre><code>## Type &#39;citation(&quot;pROC&quot;)&#39; for a citation.</code></pre>
+<pre><code>## 
+## Attaching package: &#39;pROC&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     cov, smooth, var</code></pre>
+<pre class="r"><code>library(ggplot2)
+library(tidyr)</code></pre>
+<p>We will use 3 methods from the DDoutlier package, KNN, LOF and COF. We will compute the outlier scores and use the area under the Receiver Operator Characteristic (ROC) Curve to see the accuracy of these methods.</p>
+<pre class="r"><code>set.seed(1)
+X1 &lt;- data.frame(x1=rnorm(500), x2=rnorm(500))
+oo &lt;- data.frame(x1=rnorm(5, mean=5), x2=rnorm(5, mean=5))
+X &lt;- rbind.data.frame(X1, oo)
+labs &lt;- c(rep(0, 500), rep(1, 5))
+X &lt;- cbind.data.frame(X, labs)
+
+ggplot(X, aes(x=x1, y=x2, color=as.factor(labs))) + geom_point() + theme_bw()</code></pre>
+<p><img src="{{< blogdown/postref >}}index.en_files/figure-html/ex1p1-1.png" width="672" /></p>
+<pre class="r"><code># Outlier Detection Methods
+knn_scores &lt;- DDoutlier::KNN_AGG(X)
+lof_scores &lt;- DDoutlier::LOF(X)
+cof_scores &lt;- DDoutlier::COF(X)
+
+# ROC Curve
+knn_roc &lt;- pROC::roc(labs, knn_scores)
+knn_roc</code></pre>
+<pre><code>## 
+## Call:
+## roc.default(response = labs, predictor = knn_scores)
+## 
+## Data: knn_scores in 500 controls (labs 0) &lt; 5 cases (labs 1).
+## Area under the curve: 1</code></pre>
+<pre class="r"><code>lof_roc &lt;- pROC::roc(labs, lof_scores)
+lof_roc</code></pre>
+<pre><code>## 
+## Call:
+## roc.default(response = labs, predictor = lof_scores)
+## 
+## Data: lof_scores in 500 controls (labs 0) &lt; 5 cases (labs 1).
+## Area under the curve: 0.9884</code></pre>
+<pre class="r"><code>cof_roc &lt;- pROC::roc(labs, cof_scores)
+cof_roc</code></pre>
+<pre><code>## 
+## Call:
+## roc.default(response = labs, predictor = cof_scores)
+## 
+## Data: cof_scores in 500 controls (labs 0) &lt; 5 cases (labs 1).
+## Area under the curve: 0.8212</code></pre>
+<p>This example had rather obvious outliers. Next, we look at the case when outliers slowly move out from the main distribution. To do this, we consider several iterations of the same experiment. For the first iteration, the outliers are at the boundary of the normal distribution. With each iteration, the outliers move out, bit by bit. We do this with a parameter <span class="math inline">\(\mu\)</span>, that starts at 2 and increases by 0.5 in each iteration. Which method gives better performance then?</p>
+<pre class="r"><code>set.seed(1)
+knn_auc &lt;- lof_auc &lt;- cof_auc &lt;- rep(0, 10)
+for(i in 1:10){
+  X1 &lt;- data.frame(x1=rnorm(500), x2=rnorm(500))
+  mu &lt;- 2 + (i-1)/2
+  oo &lt;- data.frame(x1=rnorm(5, mean=mu, sd=0.2), x2=rnorm(5, mean=mu, sd=0.2))
+  X &lt;- rbind.data.frame(X1, oo)
+  labs &lt;- c(rep(0, 500), rep(1, 5))
+  X &lt;- cbind.data.frame(X, labs)
+  
+  # Outlier Detection Methods
+  knn_scores &lt;- DDoutlier::KNN_AGG(X)
+  lof_scores &lt;- DDoutlier::LOF(X)
+  cof_scores &lt;- DDoutlier::COF(X)
+  
+  # Area Under ROC = AUC values
+  # KNN
+  roc_obj &lt;- pROC::roc(labs, knn_scores, direction =&quot;&lt;&quot;)
+  knn_auc[i] &lt;- roc_obj$auc
+  
+  # LOF
+  roc_obj &lt;- pROC::roc(labs, lof_scores, direction =&quot;&lt;&quot;)
+  lof_auc[i] &lt;- roc_obj$auc
+  
+  # COF
+  roc_obj &lt;- pROC::roc(labs, cof_scores, direction =&quot;&lt;&quot;)
+  cof_auc[i] &lt;- roc_obj$auc
+}
+df &lt;- data.frame(Iteration=1:10, KNN=knn_auc, LOF=lof_auc, COF=cof_auc)
+dfl &lt;- tidyr::pivot_longer(df, 2:4)
+colnames(dfl)[2:3] &lt;- c(&quot;Method&quot;, &quot;AUC&quot;)
+ggplot(dfl, aes(x=Iteration, y=AUC, color=Method)) + geom_point() + geom_line() + scale_x_continuous(breaks=1:10) + theme_bw()</code></pre>
+<p><img src="{{< blogdown/postref >}}index.en_files/figure-html/ex1Iter-1.png" width="672" />
+KNN is performing better than LOF. COF is not performing well at all. Maybe the parameters are not suitable for COF. Is KNN significantly better than LOF? To answer that question, we can repeat this example <span class="math inline">\(n\)</span> times and analyse the results.</p>
+<p>Let us consider another example. In this one, the points live in an annulus and the outliers are moving into the hole in each iteration.</p>
+<pre class="r"><code>set.seed(1)
+r1 &lt;-runif(805)
+r2 &lt;-rnorm(805, mean=5)
+theta = 2*pi*r1;
+R1 &lt;- 2
+R2 &lt;- 2
+dist = r2+R2;
+x =  dist * cos(theta)
+y =  dist * sin(theta)
+
+X &lt;- data.frame(
+    x1 = x,
+    x2 = y
+)
+labs &lt;- c(rep(0,800), rep(1,5))
+nn &lt;- dim(X)[1]
+knn_auc &lt;- lof_auc &lt;- cof_auc &lt;- rep(0, 10)
+for(i in 1:10){
+  mu &lt;-  5 - (i-1)*0.5
+  z &lt;- cbind(rnorm(5,mu, sd=0.2), rnorm(5,0, sd=0.2))
+  X[801:805, 1:2] &lt;- z
+  
+  # Outlier Detection Methods
+  knn_scores &lt;- DDoutlier::KNN_AGG(X)
+  lof_scores &lt;- DDoutlier::LOF(X)
+  cof_scores &lt;- DDoutlier::COF(X)
+  
+  # Area Under ROC = AUC values
+  # KNN
+  roc_obj &lt;- pROC::roc(labs, knn_scores, direction =&quot;&lt;&quot;)
+  knn_auc[i] &lt;- roc_obj$auc
+  
+  # LOF
+  roc_obj &lt;- pROC::roc(labs, lof_scores, direction =&quot;&lt;&quot;)
+  lof_auc[i] &lt;- roc_obj$auc
+  
+  # COF
+  roc_obj &lt;- pROC::roc(labs, cof_scores, direction =&quot;&lt;&quot;)
+  cof_auc[i] &lt;- roc_obj$auc
+}
+X &lt;- cbind.data.frame(X, labs)
+# Plot of points in the last iteration
+ggplot(X, aes(x1, x2, col=as.factor(labs))) + geom_point()</code></pre>
+<p><img src="{{< blogdown/postref >}}index.en_files/figure-html/EX2-1.png" width="672" /></p>
+<pre class="r"><code>df &lt;- data.frame(Iteration=1:10, KNN=knn_auc, LOF=lof_auc, COF=cof_auc)
+dfl &lt;- tidyr::pivot_longer(df, 2:4)
+colnames(dfl)[2:3] &lt;- c(&quot;Method&quot;, &quot;AUC&quot;)
+ggplot(dfl, aes(x=Iteration, y=AUC, color=Method)) + geom_point() + geom_line() + scale_x_continuous(breaks=1:10) + theme_bw()</code></pre>
+<p><img src="{{< blogdown/postref >}}index.en_files/figure-html/EX2-2.png" width="672" /></p>
+<p>We see that KNN &gt; LOF &gt; COF for this example. Again, by repeating the example many times, we can reduce the effect of randomness.</p>
