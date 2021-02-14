@@ -30,7 +30,7 @@ Are there anomalies that get identified for a large range of parameter values? H
 4. Pre-processing techniques for anomaly detection \\
 There are standard pre-processing techniques applied to a dataset before performing anomaly detection. What are the effects of these pre-processing techniques? If you use a different pre-processing technique, will the algorithms detect different anomalies? 
 
-5. Which anomaly detection method is best for my problem? \\
+5. Which anomaly detection method is best suited for my problem? \\
 This is known as the "algorithm selection problem". It is known that no single algorithm gives superior performance for all problems. This is known as the *No Free Lunch* theorem. So how would you select the best algorithm for your problem?
 
 Below are some non-technical summaries of my research. 
