@@ -7,10 +7,28 @@
 #  name = "Home"
 #  url = "#home"
 #  weight = 10
+
+[[main]]
+  name = "Research themes"
+  url = "#projects"
+  weight = 10
   
 [[main]]
   name = "Publications"
   url = "#publications"
+  identifier = "pubs"
+  weight = 20
+  
+[[main]]
+  name = "Published/Accepted"
+  url = "#publications"
+  parent = "pubs"
+  weight = 20
+
+[[main]]
+  name = "Preprints"
+  url = "#preprints"
+  parent = "pubs"
   weight = 20
   
 [[main]]
