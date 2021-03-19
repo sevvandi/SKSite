@@ -55,16 +55,30 @@
   name = "People"
   url = "people/"
   weight = 60
+  
+[[main]]
+  name = "Join us"
+  url = "joinus/"
+  weight = 65
+  
+[[main]]
+  name = "More"
+  weight = 70
+  identifier = "more"  
 
 [[main]]
   name = "Teaching"
   url = "courses/"
   weight = 70
+  parent = "more"
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 80
+  weight = 71
+  parent = "more"
+  
+  
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
