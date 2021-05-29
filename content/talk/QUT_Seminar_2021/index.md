@@ -8,8 +8,8 @@ address:
   street: 
 all_day: false
 authors: []
-date: "2021-05-26T15:30:00Z" 
-event: AustMS 2020
+date: "2021-05-26T13:00:00Z" 
+event: QUT Mathematics Seminar
 event_url: ""
 featured: false
 image:
@@ -17,11 +17,11 @@ image:
   focal_point: Right
 location: QUT Mathematics Seminar
 math: true
-publishDate: "2020-12-15T00:00:00Z"
+publishDate: "2021-05-26T13:00:00Z"
 slides: 
 summary: 
 tags: []
-title: Looking out for anomalies!
+title: Looking out for anomalies
 url_code: ""
 url_slides: "https://www.slideshare.net/SevvandiKandanaarach/looking-out-for-anomalies"
 ---
