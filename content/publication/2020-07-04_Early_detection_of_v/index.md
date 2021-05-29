@@ -1,9 +1,9 @@
 +++
 title = "Early detection of vegetation ignition due to powerline faults"
-date = "2020-07-04"
-authors = ["S. Kandanaarachchi", "N. Anantharama", "M. A. Munoz"]
+date = "2021-05-23"
+authors = ["Sevvandi Kandanaarachchi", "Nandini Anantharama", "Mario A Muñoz"]
 publication_types = ["2"]
-publication = "IEEE Transactions on Power Delivery (Accepted)"
+publication = "IEEE Transactions on Power Delivery"
 publication_short = "IEEE Transactions on Power Delivery (Accepted)"
 abstract = ""
 abstract_short = ""

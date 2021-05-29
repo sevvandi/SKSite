@@ -1,9 +1,9 @@
 +++
 title = "Dimension reduction for outlier detection using DOBIN "
-date = "2020-08-03"
+date = "2021-05-01"
 authors = ["Sevvandi Kandanaarachchi", "Rob J Hyndman"]
 publication_types = ["2"]
-publication = "Journal of Computational and Graphical Statistics (Accepted)"
+publication = "Journal of Computational and Graphical Statistics"
 publication_short = "Journal of Computational and Graphical Statistics"
 abstract = ""
 abstract_short = ""
