@@ -15,7 +15,7 @@ featured: false
 image:
   caption: 
   focal_point: Right
-location: Online
+location: AustMS 2020
 math: true
 publishDate: "2020-12-15T00:00:00Z"
 slides: 

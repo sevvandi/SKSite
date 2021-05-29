@@ -15,7 +15,7 @@ featured: false
 image:
   caption: 
   focal_point: Right
-location: Online
+location: Bernoulli-IMS One World Symposium 2020
 math: true
 publishDate: "2020-08-09T00:00:00Z"
 slides: 
