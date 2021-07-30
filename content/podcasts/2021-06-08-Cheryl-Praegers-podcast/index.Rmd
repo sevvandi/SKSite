@@ -1,0 +1,22 @@
+---
+title: A chat with Cheryl Praeger
+author: Sevvandi Kandanaarachchi
+date: '2021-06-15'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-06-15T08:00:08+08:00'
+featured: no
+image:
+  caption: 'Image credit: Tim Macuga'
+  focal_point: ''
+  preview_only: yes
+projects: []
+---
+![](/img/Cheryl.jfif)
+In this episode I spoke to [Prof Cheryl Praeger](https://www.uwa.edu.au/profile/cheryl-praeger) about many things. She spoke about her love for mathematics and told us a bit about her mathematical journey. Cheryl spoke about how the mathematical landscape in Australia has changed over the years. She encouraged people to reach out to the wider community and promote mathematics at all levels.
+
+As usual Tim Macuga of ACEMS helped me with this podcast. This was all done on Zoom as seen from the photo. This podcast is available at https://acems.org.au/podcast/episode-53-cheryl-praeger
