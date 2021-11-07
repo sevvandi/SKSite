@@ -21,7 +21,7 @@ publishDate: "2021-09-16T18:00:00z"
 slides: 
 summary: 
 tags: []
-title: Anomalies! You can't escape them. 
+title: Anomalies! You can't escape them.
 url_code: ""
 url_slides: "https://www.slideshare.net/SevvandiKandanaarach/anomalies-you-cant-escape-them"
 url_video: "https://www.youtube.com/watch?v=l9yK7EP7dcM"

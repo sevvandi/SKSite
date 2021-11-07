@@ -1,6 +1,6 @@
 ---
-  abstract: 
-  address:
+abstract: 
+address:
   city: 
   country: 
   postcode: 
