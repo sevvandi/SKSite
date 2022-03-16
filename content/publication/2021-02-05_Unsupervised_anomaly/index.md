@@ -1,10 +1,10 @@
 +++
 title = "Unsupervised anomaly detection ensembles using Item Response Theory"
-date = "2021-02-05"
+date = "2022-03-01"
 authors = ["Sevvandi Kandanaarachchi"]
-publication_types = ["4"]
-publication = "Working Paper"
-publication_short = "Working Paper"
+publication_types = ["2"]
+publication = "Information Sciences"
+publication_short = "Information Sciences"
 abstract = ""
 abstract_short = ""
 image_preview = ""
