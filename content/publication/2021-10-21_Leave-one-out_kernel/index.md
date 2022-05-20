@@ -1,9 +1,9 @@
 +++
 title = "Leave-one-out kernel density estimates for outlier detection"
-date = "2021-10-21"
+date = "2021-12-22"
 authors = ["Sevvandi Kandanaarachchi", "Rob J Hyndman"]
 publication_types = ["2"]
-publication = "Journal of Computational and Graphical Statistics(Accepted)"
+publication = "Journal of Computational and Graphical Statistics"
 publication_short = "Journal of Computational and Graphical Statistics"
 abstract = ""
 abstract_short = ""

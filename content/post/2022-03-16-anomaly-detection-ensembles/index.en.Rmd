@@ -1,0 +1,57 @@
+---
+title: Anomaly Detection Ensembles
+author: Sevvandi Kandanaarachchi
+date: '2022-03-16'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2022-03-16T15:50:32+11:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE, cache=TRUE, message=FALSE)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(gridExtra)
+library(here)
+library(R.matlab)
+
+# Unitize each column of X
+unitize <- function(X) {
+  for (col in 1:NCOL(X)) {
+    maxcol <- max(X[, col])
+    mincol <- min(X[, col])
+    if(maxcol!= mincol){
+      X[, col] <- (X[, col] - mincol) / (maxcol - mincol)
+    }
+  }
+  X
+}
+```
+
+What are the ways of constructing an anomaly detection ensemble? Broadly, anomaly detection ensembles can be categorised into 3 camps.
+
+1. Feature bagging
+2. Subsampling
+3. Using combination functions
+
+
+## Feature bagging
+Feature bagging uses different attribute subsets to find anomalies. In a dataset, observations are denoted by rows and attributes are denoted by columns. Feature bagging considers different column subsets. That is, multiple copies of the same dataset each having a slightly different set of columns is considered. For each dataset copy, we find anomalies using a single anomaly detection method.  Then the anomaly scores are averaged to compute the ensemble score. 
+
+Let us try this with the letter dataset from the [ODDS repository](http://odds.cs.stonybrook.edu/). We first read the dataset and normalize it so that each column has values within 0 and 1. 
+
+```{r featurebagging}
+datori <- readMat("letter.mat")
+Xori <- datori$X
+Xori <- unitize(Xori)
+```

@@ -27,6 +27,7 @@ library(tidyr)
 ```
 
 We will use 3 methods from the DDoutlier package, KNN, LOF and COF. We will compute the outlier scores and use the area under the Receiver Operator Characteristic (ROC) Curve to see the accuracy of these methods. 
+
 ```{r ex1p1}
 set.seed(1)
 X1 <- data.frame(x1=rnorm(500), x2=rnorm(500))
