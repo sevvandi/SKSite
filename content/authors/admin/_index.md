@@ -26,9 +26,9 @@ interests:
 - Data Science
 name: Sevvandi Kandanaarachchi
 organizations:
-- name: RMIT University
+- name: Data61, CSIRO
   url: ""
-role: Lecturer, Mathematical Sciences
+role: Senior Research Scientist
 social:
 - icon: envelope
   icon_pack: fas
