@@ -7,6 +7,8 @@ title:
 ---
 ##  Previous teaching experience
 ### [RMIT University](https://www.rmit.edu.au/about/schools-colleges/science/contact/mathematical-sciences)
+From 2020 till  mid 2022 I taught the following statistics courses at RMIT.
+
 1. MATH2201 - Basic Statistical Methodologies
 2. MATH1275/1276 - Statistical Computing
 3. MATH2200 - Introduction to Probability and Statistics
