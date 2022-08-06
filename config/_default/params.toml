@@ -88,7 +88,7 @@ email = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Data61, Research Way, Clayton", region = "VIC", postcode = "3168", country = "Australia", country_code = "AU"}
+# address = {street = "", region = "VIC", postcode = "", country = "Australia", country_code = "AU"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
@@ -107,7 +107,7 @@ coordinates = {latitude = "-37.807826", longitude = "144.964806"}
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "envelope", icon_pack = "fas", name = "sevvandi.kandanaarachchi@data61.csiro.au", link = "mailto:sevvandi.kandanaarachchi@data61.csiro.au"},
+  {icon = "envelope", icon_pack = "fas", name = "sevvandi.kandanaarachchi@gmail.com", link = "mailto:sevvandi.kandanaarachchi@gmail.com"},
   {icon = "google-scholar", icon_pack = "ai", name = "Google Scholar", link = "https://scholar.google.com/citations?user=XIC1yhMAAAAJ&hl=en"},
   {icon = "github", icon_pack = "fab", name = "Sevvandi on GitHub", link = "https://github.com/sevvandi"},
   {icon = "twitter", icon_pack = "fab", name = "@Sevvandik", link = "https://twitter.com/Sevvandik"},
