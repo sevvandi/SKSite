@@ -5,14 +5,13 @@ header:
 layout: docs
 title: 
 ---
-I currently teach(*) or have taught the following courses at RMIT University.
-
-1. MATH2201 - Basic Statistical Methodologies*
-2. MATH1275/1276 - Statistical Computing*
+##  Previous teaching experience
+### [RMIT University](https://www.rmit.edu.au/about/schools-colleges/science/contact/mathematical-sciences)
+1. MATH2201 - Basic Statistical Methodologies
+2. MATH1275/1276 - Statistical Computing
 3. MATH2200 - Introduction to Probability and Statistics
 
 
-## Previous teaching experience
 ### [Monash University](https://www.monash.edu/science/schools/school-of-mathematics)  
 In 2017, I taught a part of MTH3310 - Applied Mathemataical Modelling to 3rd year mathematics students. 
 
@@ -26,11 +25,4 @@ The students are assigned video lectures which they need to watch before coming 
 
 #### Mathematics Labs
 I have designed lab components for some mathematics courses. These labs concentrate on applications and are conducted in a very interactive manner. 
-
-#### Similar to clickers
-Similar to clickers, I've used an SMS based app to capture student answers to questions asked during lectures. This app changed the traditional classroom to an interactive and dynamic environment. 
- 
-
-
-
 
