@@ -38,4 +38,4 @@ If you're interested in working with me on a PhD or an MSc, you need to have a d
 
 An interest to learn more mathematics and statistics is essential, because a PhD or an MSc is a journey into the unknown exploring new territories. 
 
-I'm always happy to chat with prospective Honours, MSc and PhD students. Information on RMIT Scholarships is available at https://www.rmit.edu.au/research/research-degrees/scholarships.  
+I'm always happy to chat with prospective MSc and PhD students. 
