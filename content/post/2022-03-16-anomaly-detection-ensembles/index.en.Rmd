@@ -31,7 +31,7 @@ What are the ways of constructing an anomaly detection ensemble? Broadly, anomal
 
 
 ## Feature bagging
-Feature bagging uses different attribute subsets to find anomalies. In a dataset, generally observations are denoted by rows and attributes are denoted by columns. Feature bagging considers different column subsets. That is, multiple copies of the same dataset each having a slightly different set of columns is considered. For each dataset copy, we find anomalies using a single anomaly detection method.  Then the anomaly scores are averaged to compute the ensemble score. 
+Feature bagging is a very popular ensemble technique in anomaly detection. Feature bagging uses different attribute subsets to find anomalies. In a dataset, generally observations are denoted by rows and attributes are denoted by columns. Feature bagging considers different column subsets. That is, multiple copies of the same dataset each having a slightly different set of columns is considered. For each dataset copy, we find anomalies using a single anomaly detection method.  Then the anomaly scores are averaged to compute the ensemble score. 
 
 Let us try this with the letter dataset from the [ODDS repository](http://odds.cs.stonybrook.edu/). We first read the dataset and normalize it so that each column has values within 0 and 1. Let's have a loot at the data after normalising.  
 
@@ -114,5 +114,58 @@ rocobj1$auc
 rocobj2 <- roc(labels, bagged_score, direction = "<")
 rocobj2$auc
 ```
-Yes! We see that there is an increase in AUC (area under the ROC curve) by feature bagging. In this case it is a small improvement. But, nonetheless there is an improvement. 
+Yes! We see that there is an increase in AUC (area under the ROC curve) by feature bagging. In this case it is a small improvement. But, nonetheless there is an improvement.
 
+
+## Subsampling
+Subsampling uses different subsets of observations to come up with anomaly scores. Instead of columns, here we use different subsets of observations. Then we average the anomaly scores to get an ensemble score. First, let's get the different observation samples.  For this, we will use non-anomalous observations because the anomalous observations are rare, we don't want to use all of them. 
+
+```{r subsampling1}
+set.seed(1)
+sample_matrix <- matrix(0, nrow = NROW(Xori), ncol = 10)
+inds0 <- which(labels == 0)
+nn1 <- sum(inds0)
+inds1 <- which(labels == 1)
+nn2 <- sum(inds1)
+sample_matrix[inds1, ] <- 1
+for(j in 1:10){
+  sam <- sample(inds0, 1400)
+  sample_matrix[sam, j] <- 1
+}
+head(sample_matrix)
+```
+
+Our sample_matrix contains 1 if that observation is going to be used and 0 if it doesn't. We are going to use 10 subsampling iterations.
+
+Now that we have our subsamples, let's use an anomaly detection method to get the anomaly scores.
+
+```{r subsampling2}
+anom_scores <- matrix(NA, nrow = NROW(Xori), ncol = 10)
+for(j in 1:10){
+  inds <- which(sample_matrix[ ,j] == 1)
+  Xsub <- Xori[inds, ]
+  anom_scores[inds,j] <- KNN_AGG(Xsub)
+}
+head(anom_scores)
+```
+
+We see there are NA values when that observation was not selected. Now we will get the mean anomaly score. But some observations did not got selected for certain iterations. We need to take that into account. 
+
+```{r subsampling3}
+rowsum <- apply(sample_matrix, 1, sum)
+subsampled_score <- apply(anom_scores, 1, function(x) sum(x, na.rm = TRUE))/rowsum
+head(subsampled_score)
+```
+
+Here, we have divided the sum of the anom_scores by the number of times each observation was selected. The ensemble score is subsampled_score.  Now we can see if the ensemble score is better than the original score. 
+
+```{r subsampling4}
+# ROC  - without bagging
+rocobj1 <- roc(labels, knn_agg_without, direction = "<")
+rocobj1$auc
+
+rocobj2 <- roc(labels, subsampled_score, direction = "<")
+rocobj2$auc
+
+```
+Oh dear! Not really for this example. But it doesn't go down by much, which is a relief. Sometimes the ensemble is not better than the original model.  But most of the time it is. That is why we use ensembles. 
