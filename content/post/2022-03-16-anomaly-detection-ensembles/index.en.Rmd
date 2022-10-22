@@ -169,3 +169,33 @@ rocobj2$auc
 
 ```
 Oh dear! Not really for this example. But it doesn't go down by much, which is a relief. Sometimes the ensemble is not better than the original model.  But most of the time it is. That is why we use ensembles. 
+
+## Using combination functions
+For both the above examples we used the average as the combination function. That is, given a set of scores for each observation, we averaged them. But we can do different things. For example, we can get the maximum instead of the average. Or we can get the geometric mean which is multiplying all of the scores and getting the Nth root of them. As examples, let's try those two functions: the maximum and the geometric mean. Let's use knn_scores in the bagging example. 
+
+```{r combination1}
+
+max_score <- apply(knn_scores, 1, max)
+head(max_score)
+
+prod_score <-(apply(knn_scores, 1, prod))^(1/10)
+head(prod_score)
+```
+
+Let's see if this is better than taking the average (mean). 
+
+```{r combinations2}
+rocobj1 <- roc(labels, bagged_score, direction = "<")
+rocobj1$auc
+
+# ROC  - Max
+rocobj1 <- roc(labels, max_score, direction = "<")
+rocobj1$auc
+
+rocobj2 <- roc(labels, prod_score, direction = "<")
+rocobj2$auc
+
+
+```
+Well!  Taking the maximum improved it a bit, but taking the geometric mean reduced it a bit. Interesting! 
+

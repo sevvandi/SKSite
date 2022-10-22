@@ -183,3 +183,25 @@ rocobj2$auc</code></pre>
 <pre><code>## Area under the curve: 0.9073</code></pre>
 <p>Oh dear! Not really for this example. But it doesn’t go down by much, which is a relief. Sometimes the ensemble is not better than the original model. But most of the time it is. That is why we use ensembles.</p>
 </div>
+<div id="using-combination-functions" class="section level2">
+<h2>Using combination functions</h2>
+<p>For both the above examples we used the average as the combination function. That is, given a set of scores for each observation, we averaged them. But we can do different things. For example, we can get the maximum instead of the average. Or we can get the geometric mean which is multiplying all of the scores and getting the Nth root of them. As examples, let’s try those two functions: the maximum and the geometric mean. Let’s use knn_scores in the bagging example.</p>
+<pre class="r"><code>max_score &lt;- apply(knn_scores, 1, max)
+head(max_score)</code></pre>
+<pre><code>## [1] 25.95465 10.51396 20.79653 14.01273 12.54167 12.35021</code></pre>
+<pre class="r"><code>prod_score &lt;-(apply(knn_scores, 1, prod))^(1/10)
+head(prod_score)</code></pre>
+<pre><code>## [1] 22.427853  8.097505 14.597109 10.059545  9.070620  6.828194</code></pre>
+<p>Let’s see if this is better than taking the average (mean).</p>
+<pre class="r"><code>rocobj1 &lt;- roc(labels, bagged_score, direction = &quot;&lt;&quot;)
+rocobj1$auc</code></pre>
+<pre><code>## Area under the curve: 0.9101</code></pre>
+<pre class="r"><code># ROC  - Max
+rocobj1 &lt;- roc(labels, max_score, direction = &quot;&lt;&quot;)
+rocobj1$auc</code></pre>
+<pre><code>## Area under the curve: 0.9129</code></pre>
+<pre class="r"><code>rocobj2 &lt;- roc(labels, prod_score, direction = &quot;&lt;&quot;)
+rocobj2$auc</code></pre>
+<pre><code>## Area under the curve: 0.908</code></pre>
+<p>Well! Taking the maximum improved it a bit, but taking the geometric mean reduced it a bit. Interesting!</p>
+</div>
