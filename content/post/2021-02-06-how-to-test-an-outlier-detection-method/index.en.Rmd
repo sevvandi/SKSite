@@ -1,5 +1,5 @@
 ---
-title: Testing an Outlier Detection Method
+title: Testing an Anomaly/Outlier Detection Method
 author: Sevvandi Kandanaarachchi
 date: '2021-02-06'
 slug: []

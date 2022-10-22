@@ -16,7 +16,26 @@ image:
   preview_only: no
 projects: []
 ---
-```{r setup, include=TRUE}
+
+
+## What is an anomaly detection ensemble?
+
+It is a bunch of anomaly detection methods put together to get a final anomaly score/prediction. So you have a bunch of methods, and each of these methods have its own anomaly score, which is used by the ensemble to come up with the consensus score. 
+
+
+What are the ways of constructing an anomaly detection ensemble? Broadly, anomaly detection ensembles can be categorised into 3 camps.
+
+1. Feature bagging
+2. Subsampling
+3. Using combination functions
+
+
+## Feature bagging
+Feature bagging uses different attribute subsets to find anomalies. In a dataset, generally observations are denoted by rows and attributes are denoted by columns. Feature bagging considers different column subsets. That is, multiple copies of the same dataset each having a slightly different set of columns is considered. For each dataset copy, we find anomalies using a single anomaly detection method.  Then the anomaly scores are averaged to compute the ensemble score. 
+
+Let us try this with the letter dataset from the [ODDS repository](http://odds.cs.stonybrook.edu/). We first read the dataset and normalize it so that each column has values within 0 and 1. Let's have a loot at the data after normalising.  
+
+```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, cache=TRUE, message=FALSE)
 library(dplyr)
 library(tidyr)
@@ -24,6 +43,7 @@ library(ggplot2)
 library(gridExtra)
 library(here)
 library(R.matlab)
+
 
 # Unitize each column of X
 unitize <- function(X) {
@@ -38,20 +58,61 @@ unitize <- function(X) {
 }
 ```
 
-What are the ways of constructing an anomaly detection ensemble? Broadly, anomaly detection ensembles can be categorised into 3 camps.
-
-1. Feature bagging
-2. Subsampling
-3. Using combination functions
-
-
-## Feature bagging
-Feature bagging uses different attribute subsets to find anomalies. In a dataset, observations are denoted by rows and attributes are denoted by columns. Feature bagging considers different column subsets. That is, multiple copies of the same dataset each having a slightly different set of columns is considered. For each dataset copy, we find anomalies using a single anomaly detection method.  Then the anomaly scores are averaged to compute the ensemble score. 
-
-Let us try this with the letter dataset from the [ODDS repository](http://odds.cs.stonybrook.edu/). We first read the dataset and normalize it so that each column has values within 0 and 1. 
-
-```{r featurebagging}
+```{r featurebagging1}
 datori <- readMat("letter.mat")
 Xori <- datori$X
 Xori <- unitize(Xori)
+head(Xori)
 ```
+
+Now, feature bagging would select different column subsets. Let's pick different columns.
+
+
+
+```{r featurebagging2}
+set.seed(1)
+dd <- dim(Xori)[2]
+sample_list <- list()
+for(i in 1:10){
+  sample_list[[i]] <- sample(1:dd, 20)
+}
+sample_list[[1]]
+sample_list[[2]]
+```
+
+Next we select the subset of columns in each sample_list and find anomalies in each subsetted-dataset. Let's use the KNN_AGG anomaly detection method. This method aggregates the k-nearest neighbour distances. If a data point has high KNN distances compared to other points, then it is considered anomalous, because it is far away from other points. 
+
+```{r featurebaggin3}
+library(DDoutlier)
+knn_scores <- matrix(0, nrow = NROW(Xori), ncol = 10)
+for(i in 1:10){
+  knn_scores[ ,i] <- KNN_AGG(Xori[ ,sample_list[[i]]])
+}
+head(knn_scores)
+
+```
+
+Now we have the anomaly scores for the 10 subsetted-datasets. In feature bagging the general method of consensus is to add up the scores or take the mean of the scores, which is an equivalent thing to do. 
+
+```{r featurebagging4}
+bagged_score <- apply(knn_scores, 1, mean)
+```
+
+We can compare the bagged anomaly scores with the anomaly scores f we didn't use bagging. That is, if we used the full dataset, what would be anomaly scores? Does bagging make it better?  For this we need the labels/ground truth. To evaluate the performance, we use the area under the ROC curve.
+
+```{r featurebagging5}
+library(pROC)
+labels <- datori$y[ ,1]
+
+# anomaly scores without feature bagging - taking the full dataset
+knn_agg_without <- KNN_AGG(Xori)
+
+# ROC  - without bagging
+rocobj1 <- roc(labels, knn_agg_without, direction = "<")
+rocobj1$auc
+
+rocobj2 <- roc(labels, bagged_score, direction = "<")
+rocobj2$auc
+```
+Yes! We see that there is an increase in AUC (area under the ROC curve) by feature bagging. In this case it is a small improvement. But, nonetheless there is an improvement. 
+
