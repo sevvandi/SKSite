@@ -1,7 +1,7 @@
 ---
 title: Anomaly Detection Ensembles
 author: Sevvandi Kandanaarachchi
-date: '2022-03-16'
+date: '2022-10-22'
 slug: []
 categories: []
 tags: []
@@ -199,3 +199,68 @@ rocobj2$auc
 ```
 Well!  Taking the maximum improved it a bit, but taking the geometric mean reduced it a bit. Interesting! 
 
+
+But, combination functions are not generally used this way! In this example we used feature bagging anomaly scores and different combination functions. And we only used a single anomaly detection method all the time. Generally, combination functions are used when multiple anomaly detection methods are used. That way, it makes sense to weight  methods differently to get an ensemble score. 
+## Combination functions with multiple anomaly detection methods
+So far, we've only looked at one anomaly detection method. Let's take multiple anomaly detection methods from the DDoutlier package. 
+
+```{r combinations3}
+
+knn <- KNN_AGG(Xori)
+lof <- LOF(Xori)
+cof <- COF(Xori)
+inflo <- INFLO(Xori)
+kdeos <- KDEOS(Xori)
+ldfsscore <- LDF(Xori)
+ldf <- ldfsscore$LDE
+ldof <- LDOF(Xori)
+
+```
+
+Now we have tried 7 anomaly detection methods. Let's see different combination functions. 
+
+1. Mean
+2. Maximum
+3. Geometric Mean
+4. An IRT-based method
+
+The IRT-based method is discussed in detail in this [paper](https://www.sciencedirect.com/science/article/abs/pii/S0020025521012639). Basically, there is a fancier combination method which uses item response theory under the hood. 
+
+Let's try these methods and get ensemble scores. 
+
+
+```{r combinations4, message = FALSE}
+library(outlierensembles)
+
+anomaly_scores <- cbind.data.frame(knn, lof, cof, inflo, kdeos, ldf, ldof)
+mean_ensemble <- apply(anomaly_scores, 1, mean)
+max_ensemble <- apply(anomaly_scores, 1, max)
+geom_mean_ensemble <- (apply(anomaly_scores, 1, prod))^(1/7)
+irt_mod <- irt_ensemble(anomaly_scores)
+irt_ensemble <- irt_mod$scores
+
+```
+
+Let's evaluate the different ensembles. 
+
+```{r combinations5}
+
+rocobj1 <- roc(labels, mean_ensemble, direction = "<")
+rocobj1$auc
+
+# ROC  - Max
+rocobj1 <- roc(labels, max_ensemble, direction = "<")
+rocobj1$auc
+
+rocobj1 <- roc(labels, geom_mean_ensemble, direction = "<")
+rocobj1$auc
+
+rocobj1 <- roc(labels, irt_ensemble, direction = "<")
+rocobj1$auc
+
+
+```
+
+For this example, IRT ensemble performs best. The mean and the max ensembles perform similarly. The geometric mean ensemble performs very poorly. I just included the geometric mean as it is another function, but actually it is not used in anomaly detection ensembles. 
+
+As you see, there are different methods of ensembling. You can use feature bagging, subsampling or you can use a different combination function. And you can do more than one thing. You can do feature bagging and  use a different combination function. You can do bagging and subsampling together. A lot of options! 
