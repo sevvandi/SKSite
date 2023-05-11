@@ -1,10 +1,10 @@
 +++
 title = "Short-term prediction of stream turbidity using surrogate data and a meta-model approach"
-date = "2022-10-11"
+date = "2023-03-11"
 authors = ["Bhargav Rele", "Caleb Hogan", "Sevvandi Kandanaarachchi", "Catherine Leigh"]
-publication_types = ["4"]
-publication = "Working Paper"
-publication_short = "Working Paper"
+publication_types = ["2"]
+publication = "Hydrological Processes"
+publication_short = "Hydrological Processes"
 abstract = ""
 abstract_short = ""
 image_preview = ""
