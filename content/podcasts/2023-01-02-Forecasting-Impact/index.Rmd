@@ -1,0 +1,27 @@
+---
+title: Forecasting Impact podcasts
+author: Sevvandi Kandanaarachchi
+date: '2023-01-25'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2023-05-12T08:00:08+08:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: yes
+projects: []
+---
+![](/img/forecastingimpact.jpg)
+Recently, I got a chance to co-conduct episodes for the Forecasting Impact podcast with with Mahdi Abolghasemi.  We had great fun chatting with the guests and learnt so much about different topics. The topics were diverse, but timely and related to forecasting in some way.   
+
+1. [Dr Ataman Ozyildirim](https://forecastingimpact.buzzsprout.com/1641538/11689527-ataman-ozyildirim-on-the-business-cycle-and-leading-economic-indicators) on the business cycle and leading economic indicators.
+
+ 
+2. [Prof Galit Shmueli](https://forecastingimpact.buzzsprout.com/1641538/11867336-galit-shmueli-on-causal-inference-behavioural-modifications-and-role-of-ethics) on causal inference, behavioural modifications, and role of ethics.
+
+3. [Prof Scott Cunningham](https://forecastingimpact.buzzsprout.com/1641538/12318081-scott-cunningham-on-technological-forecasting-and-social-change) on Technological Forecasting and Social Change
