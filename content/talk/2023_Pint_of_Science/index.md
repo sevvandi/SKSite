@@ -8,7 +8,7 @@ address:
   street: 
 all_day: false
 authors: []
-date: "2023-05-22T13:00:00Z" 
+date: "2023-05-22T19:00:00Z" 
 event: Pint of Science, Australia
 event_url: "https://pintofscience.com.au/event/anomalous-astronomous-palaeontologists" 
 featured: false
