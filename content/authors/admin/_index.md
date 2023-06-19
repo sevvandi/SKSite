@@ -53,6 +53,8 @@ user_groups:
 
 Hello! Thanks for visiting my site! :wave:  
 
+<font size="6"> **We are hiring! Click the Join us tab for more details!**</font>
+
 I use statistics, mathematics and machine learning to **find unusual patterns in data**. They are referred to by different names. They can be called anomalies, outliers or novelties.  Sometimes they are called events, especially if an unusual activity is happening over time. What are some examples? Well, intrusions (attacks) in computer networks are anomalies, which are sometimes called anomalous events. Credit card fraud is another example. Fraudulent credit card transactions are anomalies when we consider billions of legitimate transactions. Or a malfunctioning sensor can give out an unusual pattern indicating that the sensor needs replacing or that the batteries have run out. A sudden increase in atmospheric aerosols captured by sensors may indicate a bushfire. 
 
 Why is it important to find these unusual patterns? If we detect them quickly, we can act upon it. Yes, early detection is really important. Can we detect an intrusion while it is happening? In this case we only have partial information, which is a challenge.  Another challenge is that the data can be high dimensional making it difficult to find anomalies. These are some of the research challenges that I work on. I also like working on real world problems, especially ones that are motivated by industry. From 2016 to 2019, I worked with an industry partner on intrusion detection. 

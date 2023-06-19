@@ -14,6 +14,13 @@ url_slides: ""
 url_video: ""
 ---
 
+<style type="text/css">
+.main-container {
+  max-width: 1800px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
 
 Are you interested in FairML Research? We have an opening available at CSIRO starting in January 2024. 
 
@@ -24,9 +31,14 @@ Project description
 
 Machine Learning (ML) is increasingly used to inform high-stake, human-centric decisions including credit scoring and sentencing in the judiciary system. But ML algorithms are well-known to exhibit biases disadvantaging people from certain ethnicities and genders. Fairness research has contributed more equitable algorithms and has increased our understanding on different bias sources. However, an understanding of how these bias sources combine to forge the overall bias is still lacking. This project aims to disentangle ML-bias into algorithmic and data bias focusing on intersectional subgroups. The techniques developed can then be used to analyze biases in threatened species management and human-machine collaboration. 
 
-The primary role of the CERC fellow will be to conduct cutting-edge research. Collaborating with the research team he/she/they are expected write conference and journal papers and present their work at local and international conferences. The CERC Fellow will have opportunities to learn new methodologies by participating in relevant workshops and longer courses such as a summer school. We expect the CERC Fellow to learn and grow to become an independent researcher by the end of this project. We will embed the CERC Fellow in the rich Data61 ecosystem where the CERC Fellow will have a supporting and enriching experience.
+The primary role of the Research fellow will be to conduct cutting-edge research. Collaborating with the research team he/she/they are expected write conference and journal papers and present their work at local and international conferences. The Research Fellow will have opportunities to learn new methodologies by participating in relevant workshops and longer courses such as a summer school. We expect the Research Fellow to learn and grow to become an independent researcher by the end of this project. We will embed the Research Fellow in the rich Data61 ecosystem where the Research Fellow will have a supporting and enriching experience.
 
-**The advert will be online in August 2023 at https://jobs.csiro.au/**
+<font size="6"> **The advert will be online in August 2023 at https://jobs.csiro.au/** 
+</font> 
+
+If you have any questions email me at sevvandi.kandanaarachchi@gmail.com or shoot me a line at https://people.csiro.au/K/S/sevvandi-kandanaarachchi
+
+
 
 
 
@@ -55,3 +67,4 @@ If you're interested in working with me on a PhD or an MSc, you need to have a d
 An interest to learn more mathematics and statistics is essential, because a PhD or an MSc is a journey into the unknown exploring new territories. 
 
 I'm always happy to chat with prospective MSc and PhD students. 
+
