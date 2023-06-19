@@ -7,14 +7,30 @@ image:
 links:
 summary: 
 tags:
-title: Join us
+title:  We are hiring!
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
 
-If you're interested in working with me on any of these research areas, get in touch. 
+
+Are you interested in FairML Research? We have an opening available at CSIRO starting in January 2024. 
+
+**CSIRO Postdoctoral Fellowship in fairness research in Machine Learning (FairML)**
+
+ 
+Project description
+
+Machine Learning (ML) is increasingly used to inform high-stake, human-centric decisions including credit scoring and sentencing in the judiciary system. But ML algorithms are well-known to exhibit biases disadvantaging people from certain ethnicities and genders. Fairness research has contributed more equitable algorithms and has increased our understanding on different bias sources. However, an understanding of how these bias sources combine to forge the overall bias is still lacking. This project aims to disentangle ML-bias into algorithmic and data bias focusing on intersectional subgroups. The techniques developed can then be used to analyze biases in threatened species management and human-machine collaboration. 
+
+The primary role of the CERC fellow will be to conduct cutting-edge research. Collaborating with the research team he/she/they are expected write conference and journal papers and present their work at local and international conferences. The CERC Fellow will have opportunities to learn new methodologies by participating in relevant workshops and longer courses such as a summer school. We expect the CERC Fellow to learn and grow to become an independent researcher by the end of this project. We will embed the CERC Fellow in the rich Data61 ecosystem where the CERC Fellow will have a supporting and enriching experience.
+
+**The advert will be online in August 2023 at https://jobs.csiro.au/**
+
+
+
+Alternatively you're interested in working with me on any of these research areas, get in touch. 
 
 ## Detecting interesting events from sensor data
 ![half-size image](NASA.jpg)
