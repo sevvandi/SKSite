@@ -24,16 +24,19 @@ url_video: ""
 
 Are you interested in FairML Research? We have an opening at CSIRO, Australia's National Science Agency! 
 
-**CSIRO Postdoctoral Fellowship in Fairness research in Machine Learning (FairML)**
+<font size="6"> **CSIRO Postdoctoral Fellowship in Fairness research in Machine Learning (FairML)**</font>
 
+**Salary Range: AU\$ 92,624 to AU\$ 101,459 pa plus up to 15.4% superannuation**
+
+**3-year contract**
  
-Project description
+*Project description*
 
 Machine Learning (ML) is increasingly used to inform high-stake, human-centric decisions including credit scoring and sentencing in the judiciary system. But ML algorithms are well-known to exhibit biases disadvantaging people from certain ethnicities and genders. Fairness research has contributed more equitable algorithms and has increased our understanding on different bias sources. However, an understanding of how these bias sources combine to forge the overall bias is still lacking. This project aims to disentangle ML-bias into algorithmic and data bias focusing on intersectional subgroups. The techniques developed can then be used to analyze biases in threatened species management and human-machine collaboration. 
 
 The primary role of the Research Fellow will be to conduct cutting-edge research.  The research team comprises CSIRO researchers [Sevvandi Kandanaarachchi](https://people.csiro.au/K/S/sevvandi-kandanaarachchi), [Cheng Soon Ong](https://people.csiro.au/O/C/Cheng-Soon-Ong) (Director MLAI FSP), [Cecile Paris](https://people.csiro.au/P/C/Cecile-Paris) (Director CINTEL FSP) and [Iadine Chades](https://people.csiro.au/C/I/Iadine-Chades), and [Eirini Ntoutsi](https://www.unibw.de/home-en/appointment-of-professors/prof-eirini-ntoutsi) from Bundeswehr University, Munich (Full Professor for Open Source Intelligence). Collaborating with the research team the Research Fellow is expected write conference and journal papers and present their work at local and international conferences. The Research Fellow will have opportunities to learn new methodologies by participating in relevant workshops and longer courses such as a summer school. We expect the Research Fellow to learn and grow to become an independent researcher by the end of this project. We will embed the Research Fellow in the rich Data61 ecosystem where the Research Fellow will have a supporting and enriching experience.
 
-<font size="6"> **The advert will be online in August 2023 at https://jobs.csiro.au/** 
+<font size="5"> **The advert will be online in August 2023 at https://jobs.csiro.au/** 
 </font> 
 
 If you have any questions email me at sevvandi.kandanaarachchi@gmail.com or shoot me a line at https://people.csiro.au/K/S/sevvandi-kandanaarachchi
