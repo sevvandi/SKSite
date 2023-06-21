@@ -22,9 +22,9 @@ url_video: ""
 }
 </style>
 
-Are you interested in FairML Research? We have an opening available at CSIRO starting in January 2024. 
+Are you interested in FairML Research? We have an opening at CSIRO, Australia's National Science Agency! 
 
-**CSIRO Postdoctoral Fellowship in fairness research in Machine Learning (FairML)**
+**CSIRO Postdoctoral Fellowship in Fairness research in Machine Learning (FairML)**
 
  
 Project description
