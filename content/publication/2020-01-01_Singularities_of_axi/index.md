@@ -1,10 +1,10 @@
 +++
 title = "Singularities of axially symmetric volume preserving mean curvature flow"
-date = "2020-03-01"
+date = "2023-07-13"
 authors = ["Maria Athanassenas", "Sevvandi Kandanaarachchi"]
 publication_types = ["2"]
-publication = "Communications in Analysis and Geometry (Accepted)"
-publication_short = "Communications in Analysis and Geometry (Accepted)"
+publication = "Communications in Analysis and Geometry"
+publication_short = "Communications in Analysis and Geometry"
 abstract = ""
 abstract_short = ""
 image_preview = ""

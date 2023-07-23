@@ -32,8 +32,11 @@ Are you interested in FairML Research? We have an opening at CSIRO, Australia's 
 
 **Relocation package available**
 
+**Applications close on August 31**
+
 **Apply at** https://jobs.csiro.au/job/Melbourne%2C-VIC-CSIRO-Postdoctoral-Fellowship-in-Fairness-Research-in-Machine-Learning-%28FairML%29/941838510/  
-*Project description*
+
+**Project description**
 
 Machine Learning (ML) is increasingly used to inform high-stake, human-centric decisions including credit scoring and sentencing in the judiciary system. But ML algorithms are well-known to exhibit biases disadvantaging people from certain ethnicities and genders. Fairness research has contributed more equitable algorithms and has increased our understanding on different bias sources. However, an understanding of how these bias sources combine to forge the overall bias is still lacking. This project aims to disentangle ML-bias into algorithmic and data bias focusing on intersectional subgroups. The techniques developed can then be used to analyze biases in threatened species management and human-machine collaboration. 
 
