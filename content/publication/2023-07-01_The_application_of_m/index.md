@@ -1,6 +1,6 @@
 +++
 title = "The application of machine learning in micrometeoroid and orbital debris impact protection and risk assessment for spacecraft"
-date = "2023-11-01"
+date = "2023-07-24"
 authors = ["Shannon Ryan", "Neeraj Mohan Sushma", "Hung Le", "A.V. Arun Kumar", "Julian Berk", "TM Nguyen", "Santu Rana", "Sevvandi Kandanaarachchi", "Svetha Venkatesh"]
 publication_types = ["2"]
 publication = "International Journal of Impact Engineering"
