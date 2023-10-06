@@ -18,15 +18,14 @@ education:
     year: 2002
 email: ""
 interests:
-- Anomaly Detection
-- Event detection
-- Streaming Data
-- Meta-learning
-- Dimension Reduction
-- Data Science
+- Anomaly and Event Detection
+- Algorithm Evaluation and Fairness
+- Spatio-temporal data
+- Networks
+
 name: Sevvandi Kandanaarachchi
 organizations:
-- name: Data61, CSIRO
+- name: CSIRO's Data61
   url: ""
 role: Senior Research Scientist
 social:
@@ -53,12 +52,10 @@ user_groups:
 
 Hello! Thanks for visiting my site! :wave:  
 
-<font size="6"> **We are hiring! Click the Join us tab for more details!**</font>
+I work on statistical machine learning and data science research. I am interested in anomaly and event detection, algorithm evaluation and fairness and applications in spatio-temporal data and networks. There are more links between these topics than meets the eye. Sometimes linking different topics gives us better insights. Isn't it fun when that happens.
 
-I use statistics, mathematics and machine learning to **find unusual patterns in data**. They are referred to by different names. They can be called anomalies, outliers or novelties.  Sometimes they are called events, especially if an unusual activity is happening over time. What are some examples? Well, intrusions (attacks) in computer networks are anomalies, which are sometimes called anomalous events. Credit card fraud is another example. Fraudulent credit card transactions are anomalies when we consider billions of legitimate transactions. Or a malfunctioning sensor can give out an unusual pattern indicating that the sensor needs replacing or that the batteries have run out. A sudden increase in atmospheric aerosols captured by sensors may indicate a bushfire. 
+I am a Senior Research Scientist at Australia's National Science Agency, CSIRO. At CSIRO's Data61 I work on interesting cutting-edge scientific research. I work with other researchers who come from different backgrounds like biology and social science. It is fascinating to work with people from different disciplines and see "Science at Work"! I really enjoy these interactions and love the experience. 
 
-Why is it important to find these unusual patterns? If we detect them quickly, we can act upon it. Yes, early detection is really important. Can we detect an intrusion while it is happening? In this case we only have partial information, which is a challenge.  Another challenge is that the data can be high dimensional making it difficult to find anomalies. These are some of the research challenges that I work on. I also like working on real world problems, especially ones that are motivated by industry. From 2016 to 2019, I worked with an industry partner on intrusion detection. 
-
-I am an applied mathematician. I came to statistical learning from a  mathematics background.  My PhD was in mean curvature flow, which has a lot of geometry and differential equations involved. I bring my geometric intuition to my current work. 
+I am an applied mathematician. I came to statistical machine learning from a  mathematics background.  My PhD was in mean curvature flow, which is in the intersection of differential geometry and partial differential equations. A mathematical background helps me to learn new things quickly. 
 
 More details can be found on my [CV](/img/CV.pdf).
