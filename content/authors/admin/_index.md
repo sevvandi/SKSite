@@ -19,7 +19,7 @@ education:
 email: ""
 interests:
 - Anomaly and Event Detection
-- Algorithm Evaluation and Fairness
+- Algorithm Evaluation and Algorithm Fairness
 - Spatio-temporal data
 - Networks
 
