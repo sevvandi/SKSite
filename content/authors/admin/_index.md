@@ -56,6 +56,6 @@ I work on statistical machine learning and data science research. I am intereste
 
 I am a Senior Research Scientist at Australia's National Science Agency, CSIRO. At CSIRO's Data61 I work on interesting cutting-edge scientific research. I work with other researchers who come from different backgrounds like biology and social science. It is fascinating to work with people from different disciplines and see "Science at Work"! I really enjoy these interactions and love the experience. 
 
-I am an applied mathematician. I came to statistical machine learning from a  mathematics background.  My PhD was in mean curvature flow, which is in the intersection of differential geometry and partial differential equations. A mathematical background helps me to learn new things quickly. 
+To give a bit of my background I am an applied mathematician. My PhD was in mean curvature flow, which is in the intersection of differential geometry and partial differential equations. I have seen researchers from different backgrounds -- engineering, biology, computer science, statistics, mathematics -- work on machine learning and artificial intelligence problems. We all bring different strengths to the table that help to propel the field forward. 
 
 More details can be found on my [CV](/img/CV.pdf).
