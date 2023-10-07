@@ -58,4 +58,4 @@ I am a Senior Research Scientist at Australia's National Science Agency, CSIRO. 
 
 To give a bit of my background I am an applied mathematician. My PhD was in mean curvature flow, which is in the intersection of differential geometry and partial differential equations. I have seen researchers from different backgrounds -- engineering, biology, computer science, statistics, mathematics -- work on machine learning and artificial intelligence problems. We all bring different strengths to the table that help to propel the field forward. 
 
-More details can be found on my [CV](/img/CV.pdf).
+My [CV](/img/CV.pdf) has more details.
