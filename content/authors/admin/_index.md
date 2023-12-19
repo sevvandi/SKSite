@@ -52,7 +52,7 @@ user_groups:
 
 Hello! Thanks for visiting my site! :wave:  
 
-I work on statistical machine learning and data science research. I am interested in networks,  algorithm evaluation, anomaly and event detection and fairness and applications in spatio-temporal data and networks. There are more links between these topics than meets the eye. Sometimes linking different topics gives us better insights. Isn't it fun when that happens.
+I work on statistical machine learning and data science research. I am interested in networks,   anomaly and event detection, algorithm evaluation and fairness and applications in spatio-temporal data and networks. There are more links between these topics than meets the eye. Sometimes linking different topics gives us better insights. Isn't it fun when that happens.
 
 I am a Senior Research Scientist at Australia's National Science Agency, CSIRO. At CSIRO's Data61 I work on interesting cutting-edge scientific research. I work with other researchers who come from different backgrounds like biology and social science. It is fascinating to work with people from different disciplines and see "Science at Work"! I really enjoy these interactions and love the experience. 
 
