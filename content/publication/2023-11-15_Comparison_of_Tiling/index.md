@@ -1,5 +1,5 @@
 +++
-title = "Comparison of Tiling Artifact Removal Methods in Secondary Ion Mass Spectrometry Images"
+title = "Comparison of tiling artifact removal methods in secondary ion mass spectrometry images"
 date = "2023-11-14"
 authors = ["Sevvandi Kandanaarachchi", "Wil Gardner", "David L. J. Alexander", "Benjamin W. Muir", "Philippe A. Chouinard", "Sheila G. Crewther", "David J. Scurr", "Mark Halliday", "Paul J. Pigram"]
 publication_types = ["2"]
