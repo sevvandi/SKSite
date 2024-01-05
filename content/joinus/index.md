@@ -7,7 +7,7 @@ image:
 links:
 summary: 
 tags:
-title:  We are hiring!
+title:
 url_code: ""
 url_pdf: ""
 url_slides: ""
