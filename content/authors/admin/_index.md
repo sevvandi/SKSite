@@ -18,10 +18,10 @@ education:
     year: 2002
 email: ""
 interests:
-- Anomaly and Event Detection
-- Algorithm Evaluation and Algorithm Fairness
-- Spatio-temporal data
-- Networks
+- Anomaly Detection
+- Algorithm Evaluation 
+- AI in Science
+- Graphs and Networks
 
 name: Sevvandi Kandanaarachchi
 organizations:
