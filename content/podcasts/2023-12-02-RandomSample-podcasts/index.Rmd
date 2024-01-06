@@ -1,0 +1,42 @@
+---
+title: Random Sample podcasts in 2023
+author: Sevvandi Kandanaarachchi
+date: '2023-12-02'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2023-12-12T08:00:08+08:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: yes
+projects: []
+---
+
+**Industry PhDs** 
+
+I did two more podcasts in 2023 for the Random Sample. One podcast was on industry PhDs. Industry PhDs give a lot more options for the PhD candidates in terms of jobs. And they get to see how the industry views research as well.
+
+For this podcast I chatted to 3 OPTIMA PhD students at Melbourne University -- Hritika Gupta, Harry McArthur and Nico Andres Thio. The podcast is available at https://www.therandomsample.com.au/podcast/industry-phds/. 
+
+
+**Emerging Leaders in Statistics**
+
+The Statistical Society of Australia has established Horizon Lecture awards to recognise emerging leaders in the field. This years awardees are 
+
+
+1. Assoc. Prof Margarita Moreno-Betancur is co-Director of the Clinical Epidemiology and Biostatistics Unit at the Murdoch Childrens Research Institute and the University of Melbourne.
+
+
+2. Dr Marijke Welvaert, a Research Fellow at the Australian Red Cross Lifeblood.
+
+
+3. Assoc. Professor Andrew Zammit Mangion from the National Institute for Applied Statistics Research Australia (NIASRA) at the University of Wollongong.
+
+I got the chance to chat to them in this podcast. You can listen to it at https://www.therandomsample.com.au/podcast/horizon-lecturers/
+
+As usual Tim Macuga was doing a lot of work in the background. 

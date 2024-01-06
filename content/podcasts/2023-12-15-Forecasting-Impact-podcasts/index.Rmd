@@ -1,0 +1,27 @@
+---
+title: Forecasting Impact podcasts
+author: Sevvandi Kandanaarachchi
+date: '2023-12-15'
+slug: []
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2023-12-15T08:00:08+08:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: yes
+projects: []
+---
+
+In 2023 I conducted a couple of episodes for the Forecasting Impact podcast with with Mahdi Abolghasemi.     
+
+1. [Prof George Athanasopoulos](https://www.buzzsprout.com/1641538/13044152-george-athanasopoulos-president-of-international-institute-of-forecasters) on multiple topics including IIF's plans and his research on forecasting.
+
+ 
+2. [Dr Thiyanga and Dilini Talagala](https://www.buzzsprout.com/1641538/13375707-priyanga-dilini-talagala-and-thiyanga-talagala) on their academic journey from Sri Lanka to Australia and back to Sri Lanka again.
+
+3. Dr Eric Siegel on his new book. Stay tuned for this podcast, it will come out in 2024. 
