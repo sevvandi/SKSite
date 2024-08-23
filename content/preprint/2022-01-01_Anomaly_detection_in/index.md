@@ -1,7 +1,7 @@
 +++
 title = "Anomaly detection in dynamic networks"
 date = "2022-10-15"
-authors = ["Sevvandi Kandanaarachchi", "Conrad Sanderson" "Rob J Hyndman"]
+authors = ["Sevvandi Kandanaarachchi", "Conrad Sanderson", "Rob J Hyndman"]
 publication_types = ["4"]
 publication = "Working Paper"
 publication_short = "Working Paper"
