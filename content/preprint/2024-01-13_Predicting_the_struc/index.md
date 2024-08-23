@@ -1,7 +1,7 @@
 +++
-title = "Predicting the structure of dynamic graphs"
+title = "Forecasting the structure of dynamic graphs"
 date = "2024-01-13"
-authors = ["Sevvandi Kandanaarachchi"]
+authors = ["Sevvandi Kandanaarachchi", "Ziqi Xu", "Stefan Westerlund"]
 publication_types = ["0"]
 publication = "Working Paper"
 publication_short = "Working Paper"
