@@ -3,12 +3,6 @@ authors:
 - admin
 bio: ""
 email: ""
-interests:
-- Anomaly Detection
-- Algorithm Evaluation 
-- AI in Science
-- Graphs and Networks
-
 name: Sevvandi Kandanaarachchi
 organizations:
 - name: CSIRO's Data61
